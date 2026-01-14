@@ -1,0 +1,134 @@
+a:hover {
+  color: #00cfff;
+  text-shadow: 0 0 6px rgba(0, 243, 255, 0.5);
+}
+
+.cyber-card li {
+  color: #003344;
+  text-shadow: 0 0 4px rgba(0, 243, 255, 0.3);
+}
+
+/* 玻璃拟态卡片 */
+.cyber-card {
+  padding: 25px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.25);
+  position: relative;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+/* 霓虹边框动画 */
+.cyber-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 18px;
+  padding: 2px;
+  background: linear-gradient(135deg, #00eaff, #7b2ff7, #ff00c8, #00eaff);
+  background-size: 300% 300%;
+  animation: neonBorder 6s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+}
+
+@keyframes neonBorder {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* 卡片内标题 */
+.cyber-card h2,
+.cyber-card h3 {
+  color: #00bcd4;
+  text-shadow:
+    0 0 2px rgba(0, 255, 255, 0.6),
+    0 0 6px rgba(0, 255, 255, 0.4),
+    0 0 12px rgba(0, 255, 255, 0.2);
+}
+
+/* 列表文字微光效果 */
+.cyber-card li {
+  color: #e0f7fa;
+  text-shadow:
+    0 0 2px rgba(0, 255, 255, 0.3),
+    0 0 4px rgba(0, 255, 255, 0.2);
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+@media (prefers-color-scheme: light) {
+  .cyber-card {
+    background: rgba(255, 255, 255, 0.92);
+    color: #333;
+    box-shadow: 0 0 12px rgba(0, 255, 255, 0.15);
+  }
+}
+
+/* 信封容器 */
+#envelope {
+  position: relative;
+  width: 90%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(0, 255, 255, 0.08);
+  backdrop-filter: blur(12px) saturate(180%);
+  border: 2px solid rgba(0, 255, 255, 0.4);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+  animation: neonPulse 4s infinite alternate;
+}
+
+/* 霓虹动态边框 */
+#envelope::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 2px;
+  background: linear-gradient(135deg, #00eaff, #7b2ff7, #ff00c8, #00eaff);
+  background-size: 300% 300%;
+  animation: neonBorder 6s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+}
+
+/* 信封标题 */
+#envelope h2 {
+  color: #00eaff;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* 信纸内容 */
+#envelope .envelope-content {
+  color: #e0f7fa;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-shadow: 0 0 6px rgba(0, 255, 255, 0.4);
+}
+
+/* 动画 */
+@keyframes neonBorder {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes neonPulse {
+  from { box-shadow: 0 0 15px rgba(0, 255, 255, 0.3); }
+  to { box-shadow: 0 0 30px rgba(0, 255, 255, 0.6); }
+}

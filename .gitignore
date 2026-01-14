@@ -1,0 +1,10 @@
+*.bat
+*.txt
+node_modules/
+.github/
+public/
+source/_posts/*/*.png
+source/_posts/*/*.jpg
+source/_posts/*/*.jpeg
+source/_posts/*/*.gif
+.deploy_git/

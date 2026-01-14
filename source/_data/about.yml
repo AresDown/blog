@@ -1,0 +1,105 @@
+- class_name: 关于页
+  subtitle: 生活明朗，技术有光✨
+  avatarImg: https://avatars.githubusercontent.com/u/73381276?v=4
+  avatarSkills:
+    left:
+      - 🤖️ 技术爱好者 
+      - 🔍 热衷探索与分享 
+      - 🧱 从 0 到 1 的构建者
+      - 🔨 设计开发一条龙
+    right:
+      - 交互体验偏执狂 🤝 
+      - 工程思维 + 设计思维 🧠 
+      - 团队氛围发动机 🔥 
+      - 行动力拉满的执行派 🏃
+  name: AresDown
+  description: 是一名 技术爱好者、博主
+  aboutsiteTips:
+    tips: 追求
+    title1: 技术源于热爱
+    title2: 创造来自体验
+    word:
+      - 学习
+      - 生活
+      - 程序
+      - 创造
+  helloAbout: Hello there!
+  skillsTips:
+    tips: 技能
+    title: 用技术构建想象力
+  careers:
+    tips: 生涯
+    title: 持续进步中
+    list:
+      - desc: 技术体系的持续构建者
+        color: "#357ef5" 
+    img: https://bu.dusays.com/2023/04/21/644287166329b.png
+  statistic:
+    link: /archives
+    text: 文章归档
+    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国，甘肃省
+    background: https://bu.dusays.com/2023/07/05/64a4c61cb20ef.jpg
+    backgroundDark: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 2003
+    selfInfoTips2: 当前专业
+    selfInfoContent2: 计算机科学与技术
+    selfInfoTips3: 现在职业
+    selfInfoContent3: 技术与灵感的双料探索者
+  personalities:
+    author_name: 提倡者
+    personality_type: INFJ-A
+    photo_url: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
+    personality_img: https://iqeq.com.cn/imgxin/mbtipc/tcz.jpg
+    name_url: https://www.16personalities.com/ch/infj-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 生活明朗，
+    maxim_bottom: 技术有光。
+  buff:
+    buff_tips: 特长
+    buff_top: 喜欢把想法变成作品
+    buff_bottom: 行动力拉满 MAX
+  game:
+    game_tips: 爱好游戏
+    game_title: Minecraft
+    game_uid: "我的世界"
+    game_bg: https://c.wallhere.com/photos/8c/aa/Minecraft_shaders-2251350.jpg!s1
+  comic:
+    comic_tips: 游戏偏好
+    comic_title: 最近在玩
+    comic_list:
+      - name: 全网公敌
+        href: https://store.steampowered.com/app/1216710/_/
+        cover: https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1216710/header_schinese.jpg?t=1747215542
+      - name: 原神
+        href: https://ys.mihoyo.com/
+        cover: https://images.hdqwalls.com/wallpapers/bthumb/genshin-impact-game-2021-ig.jpg
+      - name: 星穹铁道
+        href: https://sr.mihoyo.com/
+        cover: https://wallpapers.com//images/high/honkai-star-rail-celebration-5ayn9i8k6wvm23lp.webp
+      - name: 传送门2
+        href: https://store.steampowered.com/app/620/Portal_2/
+        cover: https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/620/header.jpg?t=1745363004
+      - name: Watch_Dogs2
+        href: https://store.steampowered.com/app/447040/Watch_Dogs_2/
+        cover: https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/447040/header.jpg?t=1751986887
+  like:
+    like_tips: 关注偏好
+    like_title: 数码科技
+    like_bg: https://images.unsplash.com/photo-1518770660439-4636190af475
+    like_bottom: 手机、电脑软硬件
+  music:
+    music_tips: 音乐偏好
+    music_title: 轻音乐、舒缓、安静
+    music_bg: https://c.wallhere.com/images/cb/23/ac4c38042e2394ecb8d8ffbed81c-1579551.png!s1
+    music_link: /music
+  reward_list:
+    # - name: 
+    #   amount: 8.8
+    #   datatime: 2023-03-28
+   
