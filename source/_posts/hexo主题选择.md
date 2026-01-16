@@ -19,7 +19,7 @@ Hexo 拥有非常丰富的主题生态，不同主题在设计风格、功能特
 </a>
 
 Next 是 Hexo 社区最经典的主题之一，以简洁、稳重、易用著称。
-{% imgf theme-next.png next主题%}
+{% imgf theme-next.webp next主题%}
 极简风格，阅读体验优秀,配置简单，文档完善,并支持多种布局与配色，插件生态成熟
 
 [doc文档](https://theme-next.js.org/)
@@ -32,7 +32,7 @@ Next 是 Hexo 社区最经典的主题之一，以简洁、稳重、易用著称
 </a>
 
 Butterfly 是近年来最受欢迎的 Hexo 主题之一，拥有现代化的卡片布局和大量扩展功能。
-{% imgf hexo-butterfly.png butterfly主题%}
+{% imgf hexo-butterfly.webp butterfly主题%}
 卡片式 UI，视觉效果强，支持 Pjax、懒加载、动画等现代特性，自定义能力强，插件兼容性好
 
 [doc文档](https://butterfly.js.org/)
@@ -45,7 +45,7 @@ Butterfly 是近年来最受欢迎的 Hexo 主题之一，拥有现代化的卡�
 </a>
 
 Icarus 以清爽、现代、结构清晰著称，适合内容较多的博客。
-{% imgf hexo-icarus.png icarus主题%}
+{% imgf hexo-icarus.webp icarus主题%}
 多种布局可选，支持丰富的组件（图库、图表、评论等），性能优秀，文档清晰
 
 [doc文档](hhttps://ppoffice.github.io/hexo-theme-icarus/)
@@ -58,7 +58,7 @@ Icarus 以清爽、现代、结构清晰著称，适合内容较多的博客。
 </a>
 
 在众多 Hexo 主题中，anzhiyu（安知鱼） 是一款非常突出的主题。它基于 Butterfly 深度优化，在视觉设计、交互体验和功能扩展上都做了大量增强，是目前 Hexo 生态中最具现代感和可玩性的主题之一。
-{% imgf hexo-anzhiyu.png icarus主题%}
+{% imgf hexo-anzhiyu.webp anzhiyu主题%}
 **主题亮点**
 
 - 现代化 UI

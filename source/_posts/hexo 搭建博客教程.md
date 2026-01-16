@@ -40,10 +40,10 @@ prefix = C:\Program Files\nodejs
 ```
 
 此处可以根据实际想安装路径进行修改并保存。
-{% imgf npm-install.png npm 安装%}
+{% imgf npm-install.webp npm 安装%}
 
 配置环境变量示例如下：
-{% imgf env.png npm 环境变量%}
+{% imgf env.webp npm 环境变量%}
 
 ### 安装 Git
 

@@ -1,0 +1,42 @@
+{
+  "audio-icon.webp": {
+    "width": 235,
+    "height": 235
+  },
+  "FFTUSR-icon.webp": {
+    "width": 161,
+    "height": 180
+  },
+  "MC_web-vst-logo.webp": {
+    "width": 234,
+    "height": 234
+  },
+  "images/env.webp": {
+    "width": 1631,
+    "height": 653
+  },
+  "images/hexo-anzhiyu.webp": {
+    "width": 1250,
+    "height": 711
+  },
+  "images/hexo-butterfly.webp": {
+    "width": 1224,
+    "height": 675
+  },
+  "images/hexo-icarus.webp": {
+    "width": 1239,
+    "height": 648
+  },
+  "images/npm-install.webp": {
+    "width": 727,
+    "height": 321
+  },
+  "images/theme-next.webp": {
+    "width": 1224,
+    "height": 707
+  },
+  "images/twikoo-access-token.webp": {
+    "width": 1014,
+    "height": 220
+  }
+}
