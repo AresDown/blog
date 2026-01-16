@@ -37,7 +37,7 @@ nav:
           icon: https://avatars.githubusercontent.com/u/73381276?v=4
         - name: MC自制网页
           link: https://aresdown.github.io/MC_web-vst/
-          icon: https://ares-images-1.pages.dev/MC_web-vst-logo.jpg
+          icon: https://ares-images-1.pages.dev/MC_web-vst-logo.webp
         - name: 返回首页
           link: /
           icon: https://avatars.githubusercontent.com/u/73381276?v=4
@@ -46,10 +46,10 @@ nav:
       item:
         - name: 局域网传输软件
           link: https://github.com/AresDown/FFTUSR
-          icon: https://ares-images-1.pages.dev/FFTUSR-icon.jpg
+          icon: https://ares-images-1.pages.dev/FFTUSR-icon.webp
         - name: AI语音训练数据
           link: https://github.com/AresDown/mhy_audio
-          icon: https://ares-images-1.pages.dev/audio-icon.jpg
+          icon: https://ares-images-1.pages.dev/audio-icon.webp
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -262,10 +262,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://raw.githubusercontent.com/AresDown/blog/main/Pictures/qrcode-weichat.png
+    - img: https://ares-images-1.pages.dev/qrcode-weichat.webp
       link:
       text: 微信
-    - img: https://raw.githubusercontent.com/AresDown/blog/main/Pictures/qrcode-alipay.jpg
+    - img: https://ares-images-1.pages.dev/qrcode-alipay.webp
       link:
       text: 支付宝
 
