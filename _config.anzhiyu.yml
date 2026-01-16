@@ -44,10 +44,10 @@ nav:
       item:
         - name: 局域网传输软件
           link: https://github.com/AresDown/FFTUSR
-          icon: https://raw.githubusercontent.com/AresDown/FFTUSR/refs/heads/main/file_transfer/icon/icon.jpg
+          icon: https://ares-images-1.pages.dev/FFTUSR-icon.jpg
         - name: AI语音训练数据
           link: https://github.com/AresDown/mhy_audio
-          icon: https://raw.githubusercontent.com/AresDown/mhy_audio/refs/heads/main/icon/icon.jpg
+          icon: https://ares-images-1.pages.dev/audio-icon.jpg
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
