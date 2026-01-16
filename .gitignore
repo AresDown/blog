@@ -8,3 +8,4 @@ source/_posts/*/*.jpg
 source/_posts/*/*.jpeg
 source/_posts/*/*.gif
 .deploy_git/
+db.json

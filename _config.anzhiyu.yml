@@ -374,7 +374,7 @@ waline:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo-livid-nu.vercel.app/
+  envId: https://api.aresdev.qzz.io/
   region: ap-southeast-1
   visitor: true
   option:

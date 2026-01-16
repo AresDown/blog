@@ -33,7 +33,7 @@ type: "link"
 
 ```
 名称: AresDown Lab
-链接: https://AresDown.github.io/blog
+链接: https://aresdev.qzz.io/
 图标: https://avatars.githubusercontent.com/u/73381276?v=4
 简介: 教程 · 分享 · 探索
 ```
