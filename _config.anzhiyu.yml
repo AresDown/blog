@@ -1,3 +1,5 @@
+script:
+  defer: true
 menu:
   文章:
     归档: /archives/ || anzhiyu-icon-box-archive
@@ -1316,7 +1318,7 @@ CDN:
   third_party_provider: cbd
 
   # Add version number to CDN, true or false
-  version: true
+  version: false
 
   # Custom format
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
@@ -1334,14 +1336,14 @@ CDN:
     # people_js:
     # local_search:
     # algolia_js:
-    # algolia_search:
-    # instantsearch:
+    algolia_search: /lib/algolia/algoliasearch-lite.umd.js 
+    instantsearch: /lib/algolia/instantsearch.production.min.js
     # docsearch_js:
     # docsearch_css:
-    # pjax:
+    pjax: /lib/pjax/pjax.min.js
     # blueimp_md5:
     # valine:
-    # twikoo:
+    twikoo: /lib/twikoo/twikoo.all.min.js
     # waline_js:
     # waline_css:
     # sharejs:
@@ -1353,15 +1355,15 @@ CDN:
     # canvas_ribbon:
     # canvas_fluttering_ribbon:
     # canvas_nest:
-    # lazyload:
-    # instantpage:
+    lazyload: /lib/lazyload/lazyload.iife.min.js
+    instantpage: /lib/instantpage/instantpage.js
     # typed:
     # pangu:
-    # fancybox_css:
-    # fancybox:
+    fancybox_css: /lib/fancybox/fancybox.css
+    fancybox: /lib/fancybox/fancybox.umd.js
     # medium_zoom:
-    # snackbar_css:
-    # snackbar:
+    snackbar_css: /lib/snackbar/snackbar.min.css
+    snackbar: /lib/snackbar/snackbar.min.js
     # activate_power_mode:
     # fireworks:
     # click_heart:
@@ -1369,9 +1371,9 @@ CDN:
     # fontawesome:
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
-    # aplayer_css:
-    # aplayer_js:
-    # meting_js:
+    aplayer_css: /lib/aplayer/APlayer.min.css
+    aplayer_js: /lib/aplayer/APlayer.min.js 
+    meting_js: /lib/aplayer/Meting.min.js
     # meting_api:
     # prismjs_js:
     # prismjs_lineNumber_js:
