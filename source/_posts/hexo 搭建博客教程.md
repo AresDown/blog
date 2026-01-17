@@ -7,7 +7,7 @@ tags:
   - 博客
 cover: https://img.aresdev.qzz.io/hexo-logo.svg
 description: hexo 搭建博客
-ai:
+ai: true
 ---
 
 **Hello World**

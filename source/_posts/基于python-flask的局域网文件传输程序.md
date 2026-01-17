@@ -5,8 +5,9 @@ category: 实用工具
 tags:
   - python
   - flask
-cover: https://img.aresdev.qzz.io/hexo-logo.svg
+cover: https://img.aresdev.qzz.io/FFTUSR-icon.webp
 description: flask局域网文件传输程序
+ai: true
 ---
 
 ## 开发目的
