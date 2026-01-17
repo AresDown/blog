@@ -1,10 +1,10 @@
 ---
-title: 原神私服启动器
-date: 2026-01-18 1:26:31
+title: 原神私服启动器-Cultivation
+date: 2026-01-18 03:02:50
 category: 服务搭建
 tags:
-  - python
-  - flask
+  - 服务器
+  - 游戏
 cover: https://img.aresdev.qzz.io/images/Cultivation/yuangame.webp
 description: Cultivation
 ai: true
