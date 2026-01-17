@@ -5,7 +5,7 @@ category: 教程
 tags:
   - Hexo
   - 博客
-cover: https://ares-images-1.pages.dev/hexo-logo.svg
+cover: https://img.aresdev.qzz.io/hexo-logo.svg
 ---
 ## Hexo 主题选择
 

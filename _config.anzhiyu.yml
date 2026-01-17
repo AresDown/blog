@@ -37,7 +37,7 @@ nav:
           icon: https://avatars.githubusercontent.com/u/73381276?v=4
         - name: MC自制网页
           link: https://aresdown.github.io/MC_web-vst/
-          icon: https://ares-images-1.pages.dev/MC_web-vst-logo.webp
+          icon: https://img.aresdev.qzz.io/MC_web-vst-logo.webp
         - name: 返回首页
           link: /
           icon: https://avatars.githubusercontent.com/u/73381276?v=4
@@ -46,10 +46,10 @@ nav:
       item:
         - name: 局域网传输软件
           link: https://github.com/AresDown/FFTUSR
-          icon: https://ares-images-1.pages.dev/FFTUSR-icon.webp
+          icon: https://img.aresdev.qzz.io/FFTUSR-icon.webp
         - name: AI语音训练数据
           link: https://github.com/AresDown/mhy_audio
-          icon: https://ares-images-1.pages.dev/audio-icon.webp
+          icon: https://img.aresdev.qzz.io/audio-icon.webp
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -262,10 +262,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://ares-images-1.pages.dev/qrcode-weichat.webp
+    - img: https://img.aresdev.qzz.io/qrcode-weichat.webp
       link:
       text: 微信
-    - img: https://ares-images-1.pages.dev/qrcode-alipay.webp
+    - img: https://img.aresdev.qzz.io/qrcode-alipay.webp
       link:
       text: 支付宝
 
@@ -1239,14 +1239,14 @@ greetingBox:
 # 文章顶部ai摘要
 post_head_ai_description:
   enable: true
-  gptName: AnZhiYu
+  gptName: 摘要助手
   mode: local # 默认模式 可选值: tianli/local
   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
   btnLink: https://afdian.net/item/886a79d4db6711eda42a52540025c377
   randomNum: 3 # 按钮最大的随机次数，也就是一篇文章最大随机出来几种
-  basicWordCount: 1000 # 最低获取字符数, 最小1000, 最大1999
-  key: xxxx
-  Referer: https://xx.xx/
+  basicWordCount: 500 # 最低获取字符数, 最小1000, 最大1999
+  key: ares-ai-123457892887554p
+  Referer: https://ai.aresdev.qzz.io/
 
 # 快捷键配置
 shortcutKey:
@@ -1364,8 +1364,8 @@ CDN:
     # medium_zoom:
     snackbar_css: /lib/snackbar/snackbar.min.css
     snackbar: /lib/snackbar/snackbar.min.js
-    # activate_power_mode:
-    # fireworks:
+    activate_power_mode: /lib/butterfly/activate-power-mode.min.js
+    fireworks: /lib/butterfly/fireworks.min.js
     # click_heart:
     # ClickShowText:
     # fontawesome:
@@ -1380,13 +1380,13 @@ CDN:
     # prismjs_autoloader:
     # artalk_js:
     # artalk_css:
-    # pace_js:
+    pace_js: /lib/pace/pace.min.js
     # pace_default_css:
     # countup_js:
     # gsap_js:
     # busuanzi:
     # rightmenu:
-    # waterfall:
-    # ali_iconfont_css:
-    # accesskey_js:
+    waterfall: /lib/anzhiyu/waterfall.js
+    ali_iconfont_css: /lib/anzhiyu/ali_iconfont_css.css
+    accesskey_js: /lib/anzhiyu/accesskey.js
     # colorthief:

@@ -43,9 +43,9 @@ hexo.extend.tag.register('imgf', function(args){
 
   // 主源映射表（Cloudflare Pages）
   const primaries = {
-    default: `https://ares-images-1.pages.dev/images/`,
-    repo2:   `https://ares-images-2.pages.dev/images/`,
-    repo3:   `https://ares-images-3.pages.dev/images/`
+    default: `https://img.aresdev.qzz.io/images/`,
+    repo2:   `https://img2.aresdev.qzz.io/images/`,
+    repo3:   `https://img3.aresdev.qzz.io/images/`
   };
 
   // 备用源映射表（GitHub Raw）
