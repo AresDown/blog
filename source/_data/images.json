@@ -47,36 +47,80 @@
     "width": 1014,
     "height": 220
   },
-  "images/FFTUSR/1.webp": {
+  "images/Cultivation/yuan1.webp": {
+    "width": 1214,
+    "height": 654
+  },
+  "images/Cultivation/yuan2.webp": {
+    "width": 1593,
+    "height": 916
+  },
+  "images/Cultivation/yuan3.webp": {
+    "width": 1599,
+    "height": 909
+  },
+  "images/Cultivation/yuan4.webp": {
+    "width": 1596,
+    "height": 909
+  },
+  "images/Cultivation/yuan5.webp": {
+    "width": 782,
+    "height": 193
+  },
+  "images/Cultivation/yuan6.webp": {
+    "width": 1007,
+    "height": 686
+  },
+  "images/Cultivation/yuan7.webp": {
+    "width": 1591,
+    "height": 914
+  },
+  "images/Cultivation/yuangame.webp": {
+    "width": 1067,
+    "height": 565
+  },
+  "images/FFTUSR/ui1.webp": {
     "width": 809,
     "height": 872
   },
-  "images/FFTUSR/2.webp": {
+  "images/FFTUSR/ui2.webp": {
     "width": 814,
     "height": 876
   },
-  "images/FFTUSR/3.webp": {
+  "images/FFTUSR/ui3.webp": {
     "width": 817,
     "height": 878
   },
-  "images/FFTUSR/4.webp": {
+  "images/FFTUSR/ui4.webp": {
     "width": 873,
     "height": 662
   },
-  "images/FFTUSR/5.webp": {
+  "images/FFTUSR/ui5.webp": {
     "width": 872,
     "height": 668
   },
-  "images/FFTUSR/6.webp": {
+  "images/FFTUSR/ui6.webp": {
     "width": 876,
     "height": 665
   },
-  "images/FFTUSR/7.webp": {
+  "images/FFTUSR/ui7.webp": {
     "width": 867,
     "height": 658
   },
-  "images/FFTUSR/8.webp": {
+  "images/FFTUSR/ui8.webp": {
     "width": 871,
     "height": 665
+  },
+  "images/network/network.webp": {
+    "width": 1357,
+    "height": 787
+  },
+  "images/network/network1.webp": {
+    "width": 1162,
+    "height": 493
+  },
+  "images/network/network3.webp": {
+    "width": 297,
+    "height": 180
   }
 }

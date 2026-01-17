@@ -66,7 +66,7 @@ FFTUSR
 >
 >用户在使用时不选择共享文件夹和上传文件夹时会自动选择C盘和D盘为默认启动文件夹并且程序会默认使用HTTP协议。
 
-{% imgf FFTUSR/1.webp %}
+{% imgf FFTUSR/ui1.webp %}
 
 >用户可以通过自定义的HTML界面下载和上传文件。用户可以选择自定义端口来开启服务。
 >
@@ -74,24 +74,24 @@ FFTUSR
 >
 >程序的GUI界面支持日志显示,便于用户查看操作记录。
 
-{% imgf FFTUSR/2.webp %}
+{% imgf FFTUSR/ui2.webp %}
 
 >此外程序还可以切换浅色和深色模式。
 
-{% imgf FFTUSR/3.webp %}
+{% imgf FFTUSR/ui3.webp %}
 
 >新版程序GUI使用PySide6制作，功能与旧版相同，用于解决Linux下Tkinter显示问题。
-{% imgf FFTUSR/4.webp %}
-{% imgf FFTUSR/5.webp %}
-{% imgf FFTUSR/6.webp %}
-{% imgf FFTUSR/7.webp %}
+{% imgf FFTUSR/ui4.webp %}
+{% imgf FFTUSR/ui5.webp %}
+{% imgf FFTUSR/ui6.webp %}
+{% imgf FFTUSR/ui7.webp %}
 >程序字体使用SourceHanSansTC-Light.ttf，用户可以根据自己的喜好选择使用其他字体打包
 >
 >将文件放在/fonts文件夹下并自行修改config.py中的字体路径即可
 >
 
 >最新版本支持用户认证，用户可以自定义用户名和密码，限制访问数量，默认关闭，用户可以自行选择是否开启。
-{% imgf FFTUSR/8.webp %}
+{% imgf FFTUSR/ui8.webp %}
 
 ## 安装和运行方式
 

@@ -659,17 +659,17 @@ site_verification:
 theme_color:
   enable: true
   main: "#00cfff"
-  dark_main: "#ffe600"
-  paginator: "#00cfff"
-  text_selection: "#00cfff"
-  link_color: "#00cfff"
+  dark_main: "#8b5cff"
+  paginator: "#ff66cc"
+  text_selection: "#00ffa2"
+  link_color: "#ff00e6"
   meta_color: "#00cfff"
-  hr_color: "#00cfff"
-  code_foreground: "#003344"
-  code_background: "rgba(240, 255, 255, 0.6)"
-  toc_color: "#00cfff"
-  scrollbar_color: "#00cfff"
-  meta_theme_color_light: "#e0f7fa"
+  hr_color: "#aa88ff"
+  code_foreground: "#002233"
+  code_background: "rgba(220, 240, 255, 0.85)"
+  toc_color: "#00ffa2"
+  scrollbar_color: "#ff66cc"
+  meta_theme_color_light: "#e0f4ff"
   meta_theme_color_dark: "#0a0a0a"
 
 # 移动端侧栏
@@ -771,7 +771,7 @@ ClickShowText:
 
 # Default display mode (网站默认的显示模式)
 # light (default) / dark
-display_mode: light
+display_mode: dark
 
 # Beautify (美化页面显示)
 beautify:
@@ -998,7 +998,7 @@ fancybox: true
 # mermaid
 # see https://github.com/mermaid-js/mermaid
 mermaid:
-  enable: false
+  enable: true
   # built-in themes: default/forest/dark/neutral
   theme:
     light: default

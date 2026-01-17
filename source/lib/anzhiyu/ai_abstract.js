@@ -178,10 +178,16 @@
   function aiGoHome(){ startAI("正在前往博客主页...",false); timeouts[2]=setTimeout(()=>{ if(window.pjax) pjax.loadUrl("/"); else location.href=location.origin; },1000);}
   function introduce(){ startAI(mode=="tianli" ? "我是文章辅助AI: TianliGPT，点击下方的按钮，让我生成本文简介、推荐相关文章等。" : `我是文章辅助AI: ${gptName} GPT，点击下方的按钮，让我生成本文简介、推荐相关文章等。`);}
   function aiTitleRefreshIconClick(){ aiTitleRefreshIcon.click(); }
-  function onAiTagClick(){ 
-    const buyBtn=document.getElementById("go-tianli-blog"); 
-    if(mode==="tianli"){ buyBtn.style.display="block"; post_ai.querySelectorAll(".ai-btn-item").forEach(item=>item.style.display="none"); startAI("你好，我是 TianliGPT..."); } 
-    else { buyBtn.style.display="none"; post_ai.querySelectorAll(".ai-btn-item").forEach(item=>item.style.display="block"); startAI(`你好，我是本站摘要生成助理 ${gptName} GPT...`);} 
+    function onAiTagClick(){ 
+    document.querySelectorAll('#go-tianli-blog').forEach(btn => {
+      btn.style.display = 'none';
+    });
+    post_ai.querySelectorAll('.ai-btn-item').forEach(item => {
+      if (item.id !== 'go-tianli-blog') {
+        item.style.display = 'block';
+      }
+    });
+    startAI(`你好，我是本站摘要生成助理 ${gptName} GPT，可以为你生成文章摘要、推荐相关文章等。`);
   }
   function onAiTitleRefreshIconClick(){ 
     let textSource=mode==="tianli"? (title+pageFillDescription).trim():document.querySelector(".post-content").innerText.trim(); 
