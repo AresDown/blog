@@ -1240,13 +1240,13 @@ greetingBox:
 post_head_ai_description:
   enable: true
   gptName: 摘要助手
-  mode: local # 默认模式 可选值: tianli/local
+  mode: cloudflare # 默认模式 可选值: tianli/local/cloudflare
   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
   btnLink: https://afdian.net/item/886a79d4db6711eda42a52540025c377
   randomNum: 3 # 按钮最大的随机次数，也就是一篇文章最大随机出来几种
-  basicWordCount: 500 # 最低获取字符数, 最小1000, 最大1999
+  basicWordCount: 200 # 最低获取字符数, 最小1000, 最大1999
   key: ares-ai-123457892887554p
-  Referer: https://ai.aresdev.qzz.io/
+  Referer: https://aresdev.qzz.io/
 
 # 快捷键配置
 shortcutKey:
@@ -1318,7 +1318,7 @@ CDN:
   third_party_provider: cbd
 
   # Add version number to CDN, true or false
-  version: false
+  version: true
 
   # Custom format
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
@@ -1332,7 +1332,7 @@ CDN:
     # random_friends_post_js:
     # right_click_menu_js:
     # comment_barrage_js:
-    # ai_abstract_js:
+    ai_abstract_js: /lib/anzhiyu/ai_abstract.js
     # people_js:
     # local_search:
     # algolia_js:

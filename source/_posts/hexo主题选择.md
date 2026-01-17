@@ -1,11 +1,14 @@
 ---
 title: hexo主题选择
 date: 2026-01-13 21:01:04
+layout: post
 category: 教程
 tags:
   - Hexo
   - 博客
 cover: https://img.aresdev.qzz.io/hexo-logo.svg
+description: hexo主题选择
+ai: 本文对当前主流 Hexo 主题进行了系统对比与分析，重点介绍了 Next、Butterfly、Icarus 以及 anzhiyu 等主题在设计风格、功能特性与可扩展性方面的差异，并结合实际使用体验给出了选型建议，适合初次搭建或准备更换主题的博客用户阅读。
 ---
 ## Hexo 主题选择
 
