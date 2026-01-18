@@ -6,10 +6,11 @@
     key: AIKey,
     Referer: AIReferer,
     gptName,
-    mode: initialMode
+    mode: initialMode,
+    afdianLink
   } = GLOBAL_CONFIG.postHeadAiDescription;
 
-  const { title, postAI, pageFillDescription } = GLOBAL_CONFIG_SITE;
+  const { title, postAI, pageFillDescription, recommendArticles } = GLOBAL_CONFIG_SITE;
 
   const post_ai = document.querySelector(".post-ai-description");
   if (!post_ai) return;
@@ -129,24 +130,57 @@
 
   function aiRecommend() {
     hardStopAI();
-    const map = new Map();
-    document.querySelectorAll(".relatedPosts-list a,.aside-list-item a").forEach(a => {
-      if (a.href !== location.href) map.set(a.href, a.title);
-    });
+    explanation.innerHTML = "生成中...";
+    setTimeout(() => {
+      explanation.innerHTML = recommendList();
+    }, 600);
+  }
 
-    if (!map.size) {
-      explanation.innerHTML = "暂无推荐文章";
-      return;
+  function recommendList() {
+    if (recommendArticles && recommendArticles.length > 0) {
+      let list = "";
+      for (let i = 0; i < recommendArticles.length && i < 5; i++) {
+        const item = recommendArticles[i];
+        list += `<div class="ai-recommend-item"><span class="index">${
+          i + 1
+        }：</span><a href="javascript:;" onclick="pjax.loadUrl('${item.url}')" title="${
+          item.title
+        }" data-pjax-state="">${item.title}</a></div>`;
+      }
+      return `推荐文章：<br /><div class="ai-recommend">${list}</div>`;
     }
 
-    explanation.innerHTML = `
-      <div class="ai-recommend">
-        ${[...map.entries()].slice(0, 5).map(
-          ([u, t], i) =>
-            `<div>${i + 1}：<a href="javascript:;" onclick="pjax.loadUrl('${u}')">${t}</a></div>`
-        ).join("")}
-      </div>
-    `;
+    let thumbnail = document.querySelectorAll(".relatedPosts-list a");
+    if (!thumbnail.length) {
+      const cardRecentPost = document.querySelector(".card-widget.card-recent-post");
+      if (!cardRecentPost) return "暂无推荐文章";
+
+      thumbnail = cardRecentPost.querySelectorAll(".aside-list-item a");
+
+      let list = "";
+      for (let i = 0; i < thumbnail.length; i++) {
+        const item = thumbnail[i];
+        list += `<div class="ai-recommend-item"><span class="index">${
+          i + 1
+        }：</span><a href="javascript:;" onclick="pjax.loadUrl('${item.href}')" title="${
+          item.title
+        }" data-pjax-state="">${item.title}</a></div>`;
+      }
+
+      return `很抱歉，无法找到类似的文章，你也可以看看本站最新发布的文章：<br /><div class="ai-recommend">${list}</div>`;
+    }
+
+    let list = "";
+    for (let i = 0; i < thumbnail.length; i++) {
+      const item = thumbnail[i];
+      list += `<div class="ai-recommend-item"><span>推荐${
+        i + 1
+      }：</span><a href="javascript:;" onclick="pjax.loadUrl('${item.href}')" title="${
+        item.title
+      }" data-pjax-state="">${item.title}</a></div>`;
+    }
+
+    return `推荐文章：<br /><div class="ai-recommend">${list}</div>`;
   }
 
   function aiGoHome() {
@@ -160,8 +194,8 @@
   function introduce() {
     hardStopAI();
     const map = {
-      local: `我是本地摘要助手 ${gptName} GPT`,
-      cloudflare: `我是 Cloudflare 摘要助手 ${gptName} GPT`,
+      local: `我是本地摘要助手`,
+      cloudflare: `我是摘要助手 ${gptName} GPT`,
       tianli: "我是 TianliGPT 云端摘要助手"
     };
     startAI(map[mode]);
@@ -175,12 +209,31 @@
       if (/推荐/.test(text)) btn.onclick = aiRecommend;
       if (/主页/.test(text)) btn.onclick = aiGoHome;
     });
+
+    const tianliBlogBtn = document.getElementById("go-tianli-blog");
+    if (tianliBlogBtn) {
+      tianliBlogBtn.onclick = () => {
+        window.open(afdianLink || btnLink, "_blank");
+      };
+    }
+
+    const afdianBtn = document.getElementById("go-afdian");
+    if (afdianBtn && afdianLink) {
+      afdianBtn.onclick = () => {
+        window.open(afdianLink, "_blank");
+      };
+    }
   }
 
   function updateButtonVisibility() {
     post_ai.querySelectorAll(".ai-btn-item").forEach(btn => {
       btn.style.display = "block";
     });
+
+    const afdianBtn = document.getElementById("go-afdian");
+    if (afdianBtn) {
+      afdianBtn.style.display = mode === "tianli" ? "block" : "none";
+    }
 
     const tianliBtn = document.getElementById("go-tianli-blog");
     if (tianliBtn) {
