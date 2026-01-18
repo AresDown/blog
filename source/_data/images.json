@@ -122,5 +122,57 @@
   "images/network/network3.webp": {
     "width": 297,
     "height": 180
+  },
+  "images/tcc/gaugeIcon.webp": {
+    "width": 400,
+    "height": 400
+  },
+  "images/tcc/tcc.webp": {
+    "width": 1794,
+    "height": 1008
+  },
+  "images/tcc/tcc1.webp": {
+    "width": 904,
+    "height": 298
+  },
+  "images/tcc/tcc2.webp": {
+    "width": 250,
+    "height": 340
+  },
+  "images/tcc/tcc3.webp": {
+    "width": 749,
+    "height": 246
+  },
+  "images/tcc/tcc4.webp": {
+    "width": 160,
+    "height": 235
+  },
+  "images/tcc/tcc5.webp": {
+    "width": 492,
+    "height": 222
+  },
+  "images/tcc/tcc6.webp": {
+    "width": 490,
+    "height": 219
+  },
+  "images/tcc/tcc7.webp": {
+    "width": 1733,
+    "height": 875
+  },
+  "Tetris/Tetris.webp": {
+    "width": 999,
+    "height": 904
+  },
+  "Tetris/Tetris1.webp": {
+    "width": 1000,
+    "height": 913
+  },
+  "Tetris/Tetris2.webp": {
+    "width": 999,
+    "height": 907
+  },
+  "Tetris/Tetris3.webp": {
+    "width": 312,
+    "height": 175
   }
 }
