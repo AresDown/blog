@@ -7,7 +7,7 @@ tags:
   - flask
 cover: https://img.aresdev.qzz.io/FFTUSR-icon.webp
 description: flask局域网文件传输程序
-ai: true
+ai: 这个程序是一款基于 Python+Flask 开发的局域网文件传输工具，它的目的是解决博主常常使用QQ、手机给电脑传输文件时遇到的流量限制和慢速问题，提供方便在 Windows 和 Linux 平台上传和下载文件的功能。
 ---
 
 ## 开发目的

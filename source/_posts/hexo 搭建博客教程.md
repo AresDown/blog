@@ -7,7 +7,7 @@ tags:
   - 博客
 cover: https://img.aresdev.qzz.io/hexo-logo.svg
 description: hexo 搭建博客
-ai: true
+ai: 欢迎使用Hexo搭建博客！你需要安装Node.js和Git。在官网下载并安装Node.js，检查安装成功。安装Git，并检查安装成功。接下来，安装Hexo，创建文件夹，初始化Hexo，并安装依赖。快速开始，创建新文章，启动服务、清理缓存、生成静态文件和部署到远程站点。此处搭建方式仅供参考，详细信息请参考官方文档。
 ---
 
 **Hello World**

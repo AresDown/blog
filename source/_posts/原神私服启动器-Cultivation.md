@@ -7,7 +7,7 @@ tags:
   - 游戏
 cover: https://img.aresdev.qzz.io/images/Cultivation/yuangame.webp
 description: Cultivation
-ai: true
+ai: 这是一个教你如何使用名为Cultivation的原神私服启动器来启动原神游戏的教程。这是一个游戏启动器，旨在将游戏流量代理到私人服务器。你需要了解原神私服（5.3）的本地搭建方法和修改器。下载Cultivation启动器并解压，在设置中选择中文并设定服务器和客户端位置。勾选“自动修改RSA”选项可以使用程序内置补丁，否则需要前期下载hk4e-patch-universal补丁。设置中还有“随游戏启动Grasscutter”选项，勾选后会在启动游戏时自动打开服务端。点击右上角的下载按钮可以下载游戏不同版本，但建议自行下载好客户端和服务器然后在程序内指定。
 ---
 
 ## 开始之前
