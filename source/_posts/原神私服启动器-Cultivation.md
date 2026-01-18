@@ -1,6 +1,8 @@
 ---
 title: 原神私服启动器-Cultivation
 date: 2026-01-18 03:02:50
+top_group_index: 2
+swiper_index: 2
 category: 服务搭建
 tags:
   - 服务器

@@ -1,6 +1,8 @@
 ---
 title: 基于python+flask的局域网文件传输程序
 date: 2026-01-17 17:26:31
+top_group_index: 1
+swiper_index: 1
 category: 实用工具
 tags:
   - python

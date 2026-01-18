@@ -19,6 +19,18 @@
     "width": 543,
     "height": 547
   },
+  "images/bye.webp": {
+    "width": 375,
+    "height": 350
+  },
+  "images/code.webp": {
+    "width": 1200,
+    "height": 800
+  },
+  "images/edu.webp": {
+    "width": 1066,
+    "height": 366
+  },
   "images/env.webp": {
     "width": 1631,
     "height": 653
@@ -35,9 +47,37 @@
     "width": 1239,
     "height": 648
   },
+  "images/Minecraft.webp": {
+    "width": 600,
+    "height": 337
+  },
+  "images/music.webp": {
+    "width": 600,
+    "height": 337
+  },
+  "images/myhome-dark.webp": {
+    "width": 1057,
+    "height": 526
+  },
+  "images/myhome.webp": {
+    "width": 1008,
+    "height": 580
+  },
   "images/npm-install.webp": {
     "width": 727,
     "height": 321
+  },
+  "images/photo.webp": {
+    "width": 600,
+    "height": 337
+  },
+  "images/tcz.webp": {
+    "width": 1060,
+    "height": 640
+  },
+  "images/technology.webp": {
+    "width": 5530,
+    "height": 3687
   },
   "images/theme-next.webp": {
     "width": 1224,
@@ -46,6 +86,10 @@
   "images/twikoo-access-token.webp": {
     "width": 1014,
     "height": 220
+  },
+  "images/work.webp": {
+    "width": 480,
+    "height": 270
   },
   "images/Cultivation/yuan1.webp": {
     "width": 1214,
@@ -159,19 +203,19 @@
     "width": 1733,
     "height": 875
   },
-  "Tetris/Tetris.webp": {
+  "images/Tetris/Tetris.webp": {
     "width": 999,
     "height": 904
   },
-  "Tetris/Tetris1.webp": {
+  "images/Tetris/Tetris1.webp": {
     "width": 1000,
     "height": 913
   },
-  "Tetris/Tetris2.webp": {
+  "images/Tetris/Tetris2.webp": {
     "width": 999,
     "height": 907
   },
-  "Tetris/Tetris3.webp": {
+  "images/Tetris/Tetris3.webp": {
     "width": 312,
     "height": 175
   }

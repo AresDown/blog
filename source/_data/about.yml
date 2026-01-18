@@ -33,16 +33,16 @@
     list:
       - desc: 技术体系的持续构建者
         color: "#357ef5" 
-    img: https://bu.dusays.com/2023/04/21/644287166329b.png
+    img: https://img.aresdev.qzz.io/images/edu.webp
   statistic:
     link: /archives
     text: 文章归档
-    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+    cover: https://img.aresdev.qzz.io/images/code.webp
   map:
     title: 我现在住在
     StrengthenTitle: 中国，甘肃省
-    background: https://bu.dusays.com/2023/07/05/64a4c61cb20ef.jpg
-    backgroundDark: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
+    background: https://img.aresdev.qzz.io/images/myhome.webp
+    backgroundDark: https://img.aresdev.qzz.io/images/myhome-dark.webp
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2003
@@ -53,8 +53,8 @@
   personalities:
     author_name: 提倡者
     personality_type: INFJ-A
-    photo_url: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
-    personality_img: https://iqeq.com.cn/imgxin/mbtipc/tcz.jpg
+    photo_url: https://img.aresdev.qzz.io/images/photo.webp
+    personality_img: https://img.aresdev.qzz.io/images/tcz.webp
     name_url: https://www.16personalities.com/ch/infj-%E4%BA%BA%E6%A0%BC
   maxim:
     maxim_tips: 座右铭
@@ -68,7 +68,7 @@
     game_tips: 爱好游戏
     game_title: Minecraft
     game_uid: "我的世界"
-    game_bg: https://c.wallhere.com/photos/8c/aa/Minecraft_shaders-2251350.jpg!s1
+    game_bg: https://img.aresdev.qzz.io/images/Minecraft.webp
   comic:
     comic_tips: 游戏偏好
     comic_title: 最近在玩
@@ -91,12 +91,12 @@
   like:
     like_tips: 关注偏好
     like_title: 数码科技
-    like_bg: https://images.unsplash.com/photo-1518770660439-4636190af475
+    like_bg: https://img.aresdev.qzz.io/images/technology.webp
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好
     music_title: 轻音乐、舒缓、安静
-    music_bg: https://c.wallhere.com/images/cb/23/ac4c38042e2394ecb8d8ffbed81c-1579551.png!s1
+    music_bg: https://img.aresdev.qzz.io/images/music.webp
     music_link: /music
   reward_list:
     # - name: 

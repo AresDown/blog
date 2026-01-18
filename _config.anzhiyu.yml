@@ -1,5 +1,3 @@
-script:
-  defer: true
 menu:
   文章:
     归档: /archives/ || anzhiyu-icon-box-archive
@@ -164,7 +162,7 @@ disable_top_img: true
 
 # The banner image of home page
 index_img: 
-    background: url("	https://avatars.githubusercontent.com/u/73381276?v=4") top / cover no-repeat
+    background: url("https://avatars.githubusercontent.com/u/73381276?v=4") top / cover no-repeat
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: false
@@ -448,9 +446,9 @@ footer:
   runtime:
     enable: true
     launch_time: 01/10/2026 10:30:20 # 网站上线时间
-    work_img: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGZ2d2Z2cGZ2eGZ2cGZ2bGZ2cGZ2d2Z2cGZ2/13HgwGsXF0aiGY/giphy.gif
+    work_img: https://img.aresdev.qzz.io/images/work.webp
     work_description: 技能提升中~
-    offduty_img: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGZ2d2Z2cGZ2bGZ2cGZ2eGZ2cGZ2d2Z2cGZ2/gx54W1mSpeYMg/giphy.gif
+    offduty_img: https://img.aresdev.qzz.io/images/bye.webp
     offduty_description: 下班了就该开开心心的玩耍，嘿嘿~
   # 徽标部分配置项 https://shields.io/
   # https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
@@ -896,9 +894,9 @@ aside:
 # busuanzi count for PV / UV in site
 # 访问人数
 busuanzi:
-  site_uv: false
-  site_pv: false
-  page_pv: false
+  site_uv: true
+  site_pv: true
+  page_pv: true
 
 # Time difference between publish date and now (网页运行时间)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
