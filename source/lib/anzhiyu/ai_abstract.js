@@ -22,9 +22,6 @@
 
   let mode = initialMode || "local";
 
-  /* =========================
-     动画与中断控制
-  ========================= */
   let aiStr = "";
   let indexI = 0;
   let animationRunning = false;
@@ -68,9 +65,6 @@
     timeouts.push(setTimeout(animate, delay));
   }
 
-  /* =========================
-     AI 摘要功能
-  ========================= */
   function aiAbstractLocal() {
     const list = postAI.split(",").map(s => s.trim());
     startAI(list[Math.floor(Math.random() * list.length)]);
@@ -98,8 +92,8 @@
     }
   }
 
-  async function aiAbstractCloudflare(num = basicWordCount) {
-    startAI("加载摘要...", true);
+  async function aiAbstractCloudflare(num = basicWordCount, force = false) {
+    startAI(force ? "正在生成新摘要..." : "加载摘要...", true);
     try {
       const res = await fetch("https://ai.aresdev.qzz.io/api/ai", {
         method: "POST",
@@ -111,7 +105,8 @@
         body: JSON.stringify({
           text: document.querySelector(".post-content")?.innerText || "",
           basicWordCount: num,
-          url: location.href
+          url: location.href,
+          force
         })
       });
       const data = await res.json();
@@ -124,20 +119,14 @@
   function aiAbstract() {
     if (mode === "local") return aiAbstractLocal();
     if (mode === "tianli") return aiAbstractTianli();
-    return aiAbstractCloudflare();
+    return aiAbstractCloudflare(basicWordCount); // 默认加载缓存
   }
 
-  /* =========================
-     Cloudflare 专用刷新
-  ========================= */
   function refreshCloudflareSummary() {
     hardStopAI();
-    aiAbstractCloudflare(basicWordCount);
+    aiAbstractCloudflare(basicWordCount, true); // force = true
   }
 
-  /* =========================
-     其他功能
-  ========================= */
   function aiRecommend() {
     hardStopAI();
     const map = new Map();
@@ -178,9 +167,6 @@
     startAI(map[mode]);
   }
 
-  /* =========================
-     按钮绑定
-  ========================= */
   function initButtons() {
     post_ai.querySelectorAll(".ai-btn-item").forEach(btn => {
       const text = btn.innerText;
@@ -205,9 +191,6 @@
     aiReadAloudIcon.style.opacity = mode === "tianli" ? "1" : "0";
   }
 
-  /* =========================
-     模式切换
-  ========================= */
   function changeShowMode() {
     hardStopAI();
     mode = mode === "tianli" ? "cloudflare" : mode === "cloudflare" ? "local" : "tianli";
@@ -215,9 +198,6 @@
     aiAbstract();
   }
 
-  /* =========================
-     事件绑定 & 初始化
-  ========================= */
   aiToggleBtn?.addEventListener("click", changeShowMode);
 
   aiTitleRefreshIcon?.addEventListener("click", () => {
