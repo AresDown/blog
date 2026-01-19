@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/websites/:id/stats",
+      "destination": "/api/umami"
+    }
+  ]
+}
