@@ -6,7 +6,7 @@ tags:
   - Vercel
   - postgreSQL
   - 博客
-cover: https://img.aresdev.qzz.io/hexo-logo.svg
+cover: https://img.aresdev.qzz.io/images/uma/uma.webp
 description: hexo主题选择
 ai: 本文介绍了如何使用Vercel部署umami，并在安知鱼主题博客来引入umami统计的方法
 ---

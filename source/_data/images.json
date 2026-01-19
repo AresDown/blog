@@ -3,9 +3,21 @@
     "width": 235,
     "height": 235
   },
+  "csdn.webp": {
+    "width": 100,
+    "height": 100
+  },
   "FFTUSR-icon.webp": {
     "width": 161,
     "height": 180
+  },
+  "github.webp": {
+    "width": 460,
+    "height": 460
+  },
+  "good.webp": {
+    "width": 96,
+    "height": 96
   },
   "MC_web-vst-logo.webp": {
     "width": 234,
@@ -18,6 +30,10 @@
   "qrcode-weichat.webp": {
     "width": 543,
     "height": 547
+  },
+  "try.webp": {
+    "width": 800,
+    "height": 600
   },
   "images/bye.webp": {
     "width": 375,
@@ -218,6 +234,10 @@
   "images/Tetris/Tetris3.webp": {
     "width": 312,
     "height": 175
+  },
+  "images/uma/uma.webp": {
+    "width": 48,
+    "height": 48
   },
   "images/uma/uma1.webp": {
     "width": 1173,
