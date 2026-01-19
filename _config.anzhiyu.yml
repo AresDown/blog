@@ -1151,13 +1151,13 @@ LA:
 # Umami 统计配置（关于页面访问统计卡片）
 # 文档: https://umami.is/docs/api
 umami:
-  enable: false
+  enable: true
   # Umami API 地址，如 https://analytics.example.com
-  apiHost:
+  apiHost: https://uma.aresdev.qzz.io
   # 网站 ID
-  websiteId:
+  websiteId: 43113b9c-dc52-4c79-990a-18defacd6d63
   # API Token（在 Umami 后台 Settings -> API Keys 中生成）
-  token:
+  token: ares-55463
 
 # 标签卖萌
 diytitle:
@@ -1248,7 +1248,7 @@ post_head_ai_description:
 
 # 快捷键配置
 shortcutKey:
-  enable: false
+  enable: true
   delay: 100 # 所有键位延时触发而不是立即触发（包括shift，以解决和浏览器键位冲突问题）
   shiftDelay: 200 # shift按下延时多久开启
 
@@ -1305,6 +1305,7 @@ inject:
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
 
   bottom:
+    - <script defer src="https://uma.aresdev.qzz.io/script.js" data-website-id="43113b9c-dc52-4c79-990a-18defacd6d63"></script>
     # 自定义js
     # - <script src="/js/xxx"></script>
 
