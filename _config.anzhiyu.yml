@@ -88,7 +88,7 @@ social:
 author_status:
   enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
-  statusImg: "https://img.aresdev.qzz.io/good.webp"
+  statusImg: "https://bu.dusays.com/2021/01/15/df742ca600b6f.gif"
   skills:
     - 🤖️ 数码科技爱好者
     - 🔍 分享与热心帮助
@@ -155,7 +155,7 @@ favicon: https://img.aresdev.qzz.io/github.webp
 # Avatar (头像)
 avatar:
   img: https://img.aresdev.qzz.io/github.webp
-  effect: true
+  effect: false
 
 # Disable all banner image
 disable_top_img: true
@@ -188,7 +188,7 @@ error_img:
 error_404:
   enable: true
   subtitle: "请尝试站内搜索寻找文章"
-  background: https://img.aresdev.qzz.io/try.webp
+  background: https://bu.dusays.com/2023/05/08/645907596997d.gif
 
 post_meta:
   page: # Home Page
@@ -1114,8 +1114,8 @@ home_top:
   default_descr: 欢迎访问我的数字基地。
   swiper:
     enable: true
-    swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
-    swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
+    swiper_css: /lib/anzhiyu/swiper.min.css #swiper css依赖
+    swiper_js: /lib/anzhiyu/swiper.min.js #swiper js依赖
   banner:
     tips: 新品主题
     title: Theme-AnZhiYu
