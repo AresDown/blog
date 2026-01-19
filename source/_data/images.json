@@ -218,5 +218,101 @@
   "images/Tetris/Tetris3.webp": {
     "width": 312,
     "height": 175
+  },
+  "images/uma/uma1.webp": {
+    "width": 1173,
+    "height": 597
+  },
+  "images/uma/uma10.webp": {
+    "width": 832,
+    "height": 627
+  },
+  "images/uma/uma11.webp": {
+    "width": 1279,
+    "height": 645
+  },
+  "images/uma/uma12.webp": {
+    "width": 931,
+    "height": 510
+  },
+  "images/uma/uma13.webp": {
+    "width": 708,
+    "height": 97
+  },
+  "images/uma/uma14.webp": {
+    "width": 737,
+    "height": 374
+  },
+  "images/uma/uma15.webp": {
+    "width": 534,
+    "height": 448
+  },
+  "images/uma/uma16.webp": {
+    "width": 1316,
+    "height": 558
+  },
+  "images/uma/uma17.webp": {
+    "width": 411,
+    "height": 326
+  },
+  "images/uma/uma18.webp": {
+    "width": 487,
+    "height": 378
+  },
+  "images/uma/uma19.webp": {
+    "width": 1241,
+    "height": 686
+  },
+  "images/uma/uma2.webp": {
+    "width": 1227,
+    "height": 511
+  },
+  "images/uma/uma20.webp": {
+    "width": 685,
+    "height": 704
+  },
+  "images/uma/uma21.webp": {
+    "width": 806,
+    "height": 694
+  },
+  "images/uma/uma22.webp": {
+    "width": 770,
+    "height": 275
+  },
+  "images/uma/uma23.webp": {
+    "width": 836,
+    "height": 414
+  },
+  "images/uma/uma24.webp": {
+    "width": 1261,
+    "height": 670
+  },
+  "images/uma/uma3.webp": {
+    "width": 1263,
+    "height": 474
+  },
+  "images/uma/uma4.webp": {
+    "width": 1180,
+    "height": 623
+  },
+  "images/uma/uma5.webp": {
+    "width": 1312,
+    "height": 409
+  },
+  "images/uma/uma6.webp": {
+    "width": 1229,
+    "height": 624
+  },
+  "images/uma/uma7.webp": {
+    "width": 832,
+    "height": 708
+  },
+  "images/uma/uma8.webp": {
+    "width": 1063,
+    "height": 732
+  },
+  "images/uma/uma9.webp": {
+    "width": 1287,
+    "height": 491
   }
 }

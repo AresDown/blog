@@ -1,7 +1,6 @@
 ---
 title: hexo主题选择
 date: 2026-01-13 21:01:04
-layout: post
 category: 教程
 tags:
   - Hexo
