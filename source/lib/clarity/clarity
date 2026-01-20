@@ -23,7 +23,7 @@
         a[c]("set", "C_IS", "0");
     }("clarity", document, window, "script", {
         projectId: "v3pywmemqf",
-        upload: "https://h.clarity.ms/collect",
+        upload: "https://aresdev.qzz.io/api/clarity/collect",
         expire: 365,
         cookies: ["_clck"],
         track: false,

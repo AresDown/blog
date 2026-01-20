@@ -2,39 +2,39 @@
   creativity_list:
     - name: Au
       color: "#4B4B4B"
-      icon: "https://skillicons.dev/icons?i=au"
+      icon: "https://img.aresdev.qzz.io/skill/au.svg"
     - name: Python
       color: "#306998"
-      icon: "https://skillicons.dev/icons?i=python"
+      icon: "https://img.aresdev.qzz.io/skill/python.svg"
     - name: C
       color: "#00599c"
-      icon: "https://skillicons.dev/icons?i=c"
+      icon: "https://img.aresdev.qzz.io/skill/c.svg"
     - name: VSCode
       color: "#007acc"
-      icon: "https://skillicons.dev/icons?i=vscode"
+      icon: "https://img.aresdev.qzz.io/skill/vscode.svg"
 
     - name: HTML
       color: "#e34c26"
-      icon: "https://skillicons.dev/icons?i=html"
+      icon: "https://img.aresdev.qzz.io/skill/html.svg"
     - name: CSS3
       color: "#264de4"
-      icon: "https://skillicons.dev/icons?i=css"
+      icon: "https://img.aresdev.qzz.io/skill/css.svg"
     - name: JS
       color: "#f7df1e"
-      icon: "https://skillicons.dev/icons?i=javascript"
+      icon: "https://img.aresdev.qzz.io/skill/javascript.svg"
     - name: Git
       color: "#f34f29"
-      icon: "https://skillicons.dev/icons?i=git"
+      icon: "https://img.aresdev.qzz.io/skill/git.svg"
     - name: Node
       color: "#339933"
-      icon: "https://skillicons.dev/icons?i=nodejs"
+      icon: "https://img.aresdev.qzz.io/skill/nodejs.svg"
 
     - name: Windows
       color: "#00adef"
-      icon: "https://skillicons.dev/icons?i=windows"
+      icon: "https://img.aresdev.qzz.io/skill/windows.svg"
     - name: Linux
       color: "#333333"
-      icon: "https://skillicons.dev/icons?i=linux"
+      icon: "https://img.aresdev.qzz.io/skill/linux.svg"
     - name: Ps
       color: "#999999"
-      icon: "https://skillicons.dev/icons?i=ps"
+      icon: "https://img.aresdev.qzz.io/skill/ps.svg"
