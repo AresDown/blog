@@ -8,7 +8,9 @@ export default async function handler(req) {
       method: "POST",
       headers: {
         "Content-Type": req.headers.get("Content-Type"),
+        "Content-Encoding": req.headers.get("Content-Encoding") || "",
         "User-Agent": req.headers.get("User-Agent"),
+        "Accept": req.headers.get("Accept") || "*/*",
       },
       body: req.body
     });
@@ -16,7 +18,7 @@ export default async function handler(req) {
     return new Response(upstream.body, {
       status: upstream.status,
       headers: {
-        "Content-Type": upstream.headers.get("Content-Type"),
+        "Content-Type": upstream.headers.get("Content-Type") || "application/json",
         "Access-Control-Allow-Origin": "*"
       }
     });
