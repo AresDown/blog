@@ -1389,7 +1389,7 @@ CDN:
     # pace_default_css:
     # countup_js:
     # gsap_js:
-    # busuanzi:
+    busuanzi: /lib/busuanzi/busuanzi.pure.mini.js
     # rightmenu:
     waterfall: /lib/anzhiyu/waterfall.js
     ali_iconfont_css: /lib/anzhiyu/ali_iconfont_css.css
