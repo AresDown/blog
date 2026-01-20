@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/clarity/tag/:id",
+      "destination": "/api/proxy/route?url=https://www.clarity.ms/tag/:id"
+    },
+    {
+      "source": "/clarity-scripts/:path*",
+      "destination": "/api/proxy/route?url=https://scripts.clarity.ms/:path*"
+    },
+    {
+      "source": "/clarity-c/:path*",
+      "destination": "/api/proxy/route?url=https://c.clarity.ms/:path*"
+    },
+    {
+      "source": "/cf-insights/:path*",
+      "destination": "/api/proxy/route?url=https://static.cloudflareinsights.com/:path*"
+    }
+  ]
+}
