@@ -1,5 +1,3 @@
-*.bat
-*.txt
 node_modules/
 .github/
 public/

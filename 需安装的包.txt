@@ -1,0 +1,12 @@
+npm install hexo-renderer-pug --save
+npm install hexo-renderer-stylus --save
+npm install hexo-algoliasearch --save
+npm install hexo-tag-aplayer --save
+npm install hexo-generator-category hexo-generator-tag --save
+npm install hexo-wordcount --save
+npm install hexo-butterfly-envelope --save
+npm uninstall hexo-renderer-marked
+npm install hexo-renderer-markdown-it --save
+npm install markdown-it-anchor --save
+npm install hexo-deployer-git --save
+npm install clarity-js
