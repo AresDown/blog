@@ -1306,6 +1306,7 @@ inject:
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
 
   bottom:
+    - <script src="/js/custom.js"></script>
     - <script defer src="https://uma.aresdev.qzz.io/script.js" data-website-id="43113b9c-dc52-4c79-990a-18defacd6d63"></script>
     # 自定义js
     # - <script src="/js/xxx"></script>
