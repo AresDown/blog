@@ -1,0 +1,33 @@
+    window.clarity = window.clarity || function() {
+        (window.clarity.q = window.clarity.q || []).push(arguments)
+    };
+    !function(c, l, a, r, i, t, y) {
+        a[c]("metadata", function() {
+            a[c]("set", "C_IS", "0")
+        }, false, true);
+
+        if (a[c].v || a[c].t) return a[c]("event", c, "dup." + i.projectId);
+
+        a[c].t = true;
+        t = l.createElement(r);
+        t.async = true;
+
+        // ⭐ 改成本地 clarity.js
+        t.src = "/lib/clarity/clarity.js";
+
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+
+        a[c]("start", i);
+        a[c].q.unshift(a[c].q.pop());
+        a[c]("set", "C_IS", "0");
+    }("clarity", document, window, "script", {
+        projectId: "v3pywmemqf",
+        upload: "https://h.clarity.ms/collect",
+        expire: 365,
+        cookies: ["_clck"],
+        track: false,
+        content: true,
+        keep: ["msclkid"],
+        dob: 2211
+    });
