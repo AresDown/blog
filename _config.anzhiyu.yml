@@ -1062,10 +1062,10 @@ pangu:
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
   enable: true
-  field: site # site/post
+  field: post # site/post
   placeholder:
-  blur: true
-  progressive: true
+  blur: false
+  progressive: false
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
