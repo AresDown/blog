@@ -138,7 +138,6 @@ aplayer:
 algolia:
   appId: "RG99W33NVW"
   apiKey: "aa3792dde1fc38535ca0c062f5ac0863"
-  adminApiKey: ""
   chunkSize: 5000
   indexName: "hexo"
   fields:
