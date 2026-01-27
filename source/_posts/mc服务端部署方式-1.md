@@ -123,5 +123,6 @@ ai: 本文介绍了在Windows系统本地搭建《我的世界》（Minecraft）
 {% imgf mc/mc14.webp %}
 {% imgf mc/mc15.webp %}
 >[这里需要用具有公网的frps客户端,方法大家可以点此了解](https://www.mslmc.cn/docs/frp.html)
+>
 >第二种就是点对点联机
 {% imgf mc/mc16.webp %}

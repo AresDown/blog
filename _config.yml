@@ -179,10 +179,7 @@ markdown:
     html: true
     breaks: false
     linkify: true
-  plugins:
-    - markdown-it-anchor
+  plugins: []
   anchors:
-    level: 1
-    permalink: true
-    permalinkBefore: true
-    permalinkSymbol: '🔗'
+    level: 0
+    permalink: false
