@@ -191,7 +191,15 @@
     "width": 871,
     "height": 665
   },
+  "images/linux/immortalwrt.webp": {
+    "width": 356,
+    "height": 200
+  },
   "images/linux/istoreOS.webp": {
+    "width": 356,
+    "height": 200
+  },
+  "images/linux/openwrt.webp": {
     "width": 356,
     "height": 200
   },
@@ -390,6 +398,146 @@
   "images/linux/istoreOS/store9.webp": {
     "width": 1118,
     "height": 770
+  },
+  "images/linux/openwrt/open1.webp": {
+    "width": 1124,
+    "height": 761
+  },
+  "images/linux/openwrt/open10.webp": {
+    "width": 1162,
+    "height": 514
+  },
+  "images/linux/openwrt/open11.webp": {
+    "width": 883,
+    "height": 635
+  },
+  "images/linux/openwrt/open12.webp": {
+    "width": 892,
+    "height": 652
+  },
+  "images/linux/openwrt/open13.webp": {
+    "width": 1056,
+    "height": 542
+  },
+  "images/linux/openwrt/open14.webp": {
+    "width": 716,
+    "height": 357
+  },
+  "images/linux/openwrt/open15.webp": {
+    "width": 1158,
+    "height": 740
+  },
+  "images/linux/openwrt/open16.webp": {
+    "width": 1110,
+    "height": 661
+  },
+  "images/linux/openwrt/open17.webp": {
+    "width": 1131,
+    "height": 668
+  },
+  "images/linux/openwrt/open18.webp": {
+    "width": 1057,
+    "height": 447
+  },
+  "images/linux/openwrt/open19.webp": {
+    "width": 1179,
+    "height": 748
+  },
+  "images/linux/openwrt/open2.webp": {
+    "width": 681,
+    "height": 346
+  },
+  "images/linux/openwrt/open20.webp": {
+    "width": 1128,
+    "height": 740
+  },
+  "images/linux/openwrt/open21.webp": {
+    "width": 509,
+    "height": 447
+  },
+  "images/linux/openwrt/open22.webp": {
+    "width": 902,
+    "height": 339
+  },
+  "images/linux/openwrt/open23.webp": {
+    "width": 724,
+    "height": 397
+  },
+  "images/linux/openwrt/open24.webp": {
+    "width": 625,
+    "height": 392
+  },
+  "images/linux/openwrt/open25.webp": {
+    "width": 493,
+    "height": 384
+  },
+  "images/linux/openwrt/open26.webp": {
+    "width": 727,
+    "height": 267
+  },
+  "images/linux/openwrt/open27.webp": {
+    "width": 1225,
+    "height": 667
+  },
+  "images/linux/openwrt/open28.webp": {
+    "width": 1214,
+    "height": 383
+  },
+  "images/linux/openwrt/open29.webp": {
+    "width": 1205,
+    "height": 559
+  },
+  "images/linux/openwrt/open3.webp": {
+    "width": 679,
+    "height": 263
+  },
+  "images/linux/openwrt/open30.webp": {
+    "width": 990,
+    "height": 723
+  },
+  "images/linux/openwrt/open31.webp": {
+    "width": 874,
+    "height": 574
+  },
+  "images/linux/openwrt/open32.webp": {
+    "width": 1119,
+    "height": 514
+  },
+  "images/linux/openwrt/open33.webp": {
+    "width": 718,
+    "height": 375
+  },
+  "images/linux/openwrt/open34.webp": {
+    "width": 748,
+    "height": 527
+  },
+  "images/linux/openwrt/open35.webp": {
+    "width": 1090,
+    "height": 613
+  },
+  "images/linux/openwrt/open4.webp": {
+    "width": 486,
+    "height": 270
+  },
+  "images/linux/openwrt/open5.webp": {
+    "width": 568,
+    "height": 378
+  },
+  "images/linux/openwrt/open6.webp": {
+    "width": 721,
+    "height": 224
+  },
+  "images/linux/openwrt/open7.webp": {
+    "width": 1192,
+    "height": 592
+  },
+  "images/linux/openwrt/open8.webp": {
+    "width": 1168,
+    "height": 393
+  },
+  "images/linux/openwrt/open9.webp": {
+    "width": 1121,
+    "height": 185
   },
   "images/mc/mc1-1.webp": {
     "width": 1411,
