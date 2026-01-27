@@ -67,6 +67,10 @@
     "width": 1239,
     "height": 648
   },
+  "images/mc.webp": {
+    "width": 500,
+    "height": 261
+  },
   "images/Minecraft.webp": {
     "width": 600,
     "height": 337
@@ -110,6 +114,18 @@
   "images/work.webp": {
     "width": 480,
     "height": 270
+  },
+  "images/book/book.webp": {
+    "width": 356,
+    "height": 200
+  },
+  "images/book/book1.webp": {
+    "width": 576,
+    "height": 349
+  },
+  "images/book/book2.webp": {
+    "width": 571,
+    "height": 377
   },
   "images/Cultivation/yuan1.webp": {
     "width": 1214,
@@ -174,6 +190,266 @@
   "images/FFTUSR/ui8.webp": {
     "width": 871,
     "height": 665
+  },
+  "images/mc/mc1-1.webp": {
+    "width": 1411,
+    "height": 799
+  },
+  "images/mc/mc1-10.webp": {
+    "width": 1362,
+    "height": 847
+  },
+  "images/mc/mc1-11.webp": {
+    "width": 1370,
+    "height": 762
+  },
+  "images/mc/mc1-12.webp": {
+    "width": 1315,
+    "height": 729
+  },
+  "images/mc/mc1-13.webp": {
+    "width": 1316,
+    "height": 784
+  },
+  "images/mc/mc1-14.webp": {
+    "width": 1314,
+    "height": 819
+  },
+  "images/mc/mc1-15.webp": {
+    "width": 1347,
+    "height": 739
+  },
+  "images/mc/mc1-16.webp": {
+    "width": 1371,
+    "height": 817
+  },
+  "images/mc/mc1-17.webp": {
+    "width": 1388,
+    "height": 576
+  },
+  "images/mc/mc1-18.webp": {
+    "width": 1193,
+    "height": 772
+  },
+  "images/mc/mc1-19.webp": {
+    "width": 1373,
+    "height": 574
+  },
+  "images/mc/mc1-2.webp": {
+    "width": 1213,
+    "height": 655
+  },
+  "images/mc/mc1-20.webp": {
+    "width": 1346,
+    "height": 713
+  },
+  "images/mc/mc1-21.webp": {
+    "width": 1327,
+    "height": 758
+  },
+  "images/mc/mc1-22.webp": {
+    "width": 1279,
+    "height": 747
+  },
+  "images/mc/mc1-23.webp": {
+    "width": 1329,
+    "height": 576
+  },
+  "images/mc/mc1-24.webp": {
+    "width": 1345,
+    "height": 687
+  },
+  "images/mc/mc1-25.webp": {
+    "width": 1359,
+    "height": 624
+  },
+  "images/mc/mc1-26.webp": {
+    "width": 1332,
+    "height": 667
+  },
+  "images/mc/mc1-27.webp": {
+    "width": 1207,
+    "height": 638
+  },
+  "images/mc/mc1-28.webp": {
+    "width": 1212,
+    "height": 646
+  },
+  "images/mc/mc1-29.webp": {
+    "width": 1370,
+    "height": 740
+  },
+  "images/mc/mc1-3.webp": {
+    "width": 1476,
+    "height": 752
+  },
+  "images/mc/mc1-30.webp": {
+    "width": 1260,
+    "height": 989
+  },
+  "images/mc/mc1-4.webp": {
+    "width": 1361,
+    "height": 850
+  },
+  "images/mc/mc1-5.webp": {
+    "width": 1354,
+    "height": 830
+  },
+  "images/mc/mc1-6.webp": {
+    "width": 1342,
+    "height": 830
+  },
+  "images/mc/mc1-7.webp": {
+    "width": 1330,
+    "height": 847
+  },
+  "images/mc/mc1-8.webp": {
+    "width": 1340,
+    "height": 841
+  },
+  "images/mc/mc1-9.webp": {
+    "width": 1367,
+    "height": 822
+  },
+  "images/mc/mc1.webp": {
+    "width": 993,
+    "height": 610
+  },
+  "images/mc/mc10.webp": {
+    "width": 997,
+    "height": 605
+  },
+  "images/mc/mc11.webp": {
+    "width": 860,
+    "height": 518
+  },
+  "images/mc/mc12.webp": {
+    "width": 854,
+    "height": 513
+  },
+  "images/mc/mc13.webp": {
+    "width": 854,
+    "height": 517
+  },
+  "images/mc/mc14.webp": {
+    "width": 994,
+    "height": 618
+  },
+  "images/mc/mc15.webp": {
+    "width": 937,
+    "height": 555
+  },
+  "images/mc/mc16.webp": {
+    "width": 999,
+    "height": 624
+  },
+  "images/mc/mc2-1.webp": {
+    "width": 1358,
+    "height": 703
+  },
+  "images/mc/mc2-10.webp": {
+    "width": 1363,
+    "height": 778
+  },
+  "images/mc/mc2-11.webp": {
+    "width": 1355,
+    "height": 731
+  },
+  "images/mc/mc2-12.webp": {
+    "width": 1384,
+    "height": 774
+  },
+  "images/mc/mc2-13.webp": {
+    "width": 1405,
+    "height": 739
+  },
+  "images/mc/mc2-14.webp": {
+    "width": 1408,
+    "height": 573
+  },
+  "images/mc/mc2-15.webp": {
+    "width": 1297,
+    "height": 758
+  },
+  "images/mc/mc2-16.webp": {
+    "width": 1361,
+    "height": 617
+  },
+  "images/mc/mc2-17.webp": {
+    "width": 1376,
+    "height": 745
+  },
+  "images/mc/mc2-18.webp": {
+    "width": 1079,
+    "height": 364
+  },
+  "images/mc/mc2-19.webp": {
+    "width": 1082,
+    "height": 439
+  },
+  "images/mc/mc2-2.webp": {
+    "width": 1068,
+    "height": 462
+  },
+  "images/mc/mc2-3.webp": {
+    "width": 1089,
+    "height": 492
+  },
+  "images/mc/mc2-4.webp": {
+    "width": 868,
+    "height": 501
+  },
+  "images/mc/mc2-5.webp": {
+    "width": 1358,
+    "height": 833
+  },
+  "images/mc/mc2-6.webp": {
+    "width": 1387,
+    "height": 820
+  },
+  "images/mc/mc2-7.webp": {
+    "width": 1355,
+    "height": 824
+  },
+  "images/mc/mc2-8.webp": {
+    "width": 927,
+    "height": 85
+  },
+  "images/mc/mc2-9.webp": {
+    "width": 733,
+    "height": 401
+  },
+  "images/mc/mc2.webp": {
+    "width": 995,
+    "height": 618
+  },
+  "images/mc/mc3.webp": {
+    "width": 996,
+    "height": 614
+  },
+  "images/mc/mc4.webp": {
+    "width": 997,
+    "height": 621
+  },
+  "images/mc/mc5.webp": {
+    "width": 995,
+    "height": 624
+  },
+  "images/mc/mc6.webp": {
+    "width": 994,
+    "height": 618
+  },
+  "images/mc/mc7.webp": {
+    "width": 994,
+    "height": 616
+  },
+  "images/mc/mc8.webp": {
+    "width": 994,
+    "height": 617
+  },
+  "images/mc/mc9.webp": {
+    "width": 993,
+    "height": 618
   },
   "images/network/network.webp": {
     "width": 1357,

@@ -6,7 +6,7 @@ hexo.extend.tag.register('imgf', function(args){
   const filepath = args[0]; // 第一个参数永远是文件路径
 
   // 默认值
-  let alt = filepath;
+  let alt = null;           // 默认不显示 alt
   let repo = 'default';
   let width = null;
   let height = null;
@@ -63,10 +63,12 @@ hexo.extend.tag.register('imgf', function(args){
     (width ? ` width="${width}"` : '') +
     (height ? ` height="${height}"` : '');
 
+  // alt 属性（只有用户写了说明才显示）
+  const altAttr = alt ? ` alt="${alt}"` : '';
+
   return `
 <img src="${primary}"
-     onerror="this.onerror=null;this.src='${backup}';"
-     alt="${alt}"${sizeAttr}>
+     onerror="this.onerror=null;this.src='${backup}';"${altAttr}${sizeAttr}>
   `;
 });
 
