@@ -191,6 +191,206 @@
     "width": 871,
     "height": 665
   },
+  "images/linux/istoreOS.webp": {
+    "width": 356,
+    "height": 200
+  },
+  "images/linux/istoreOS/store1.webp": {
+    "width": 493,
+    "height": 387
+  },
+  "images/linux/istoreOS/store10.webp": {
+    "width": 286,
+    "height": 147
+  },
+  "images/linux/istoreOS/store11.webp": {
+    "width": 492,
+    "height": 392
+  },
+  "images/linux/istoreOS/store12.webp": {
+    "width": 498,
+    "height": 386
+  },
+  "images/linux/istoreOS/store13.webp": {
+    "width": 496,
+    "height": 384
+  },
+  "images/linux/istoreOS/store14.webp": {
+    "width": 498,
+    "height": 384
+  },
+  "images/linux/istoreOS/store15.webp": {
+    "width": 497,
+    "height": 387
+  },
+  "images/linux/istoreOS/store16.webp": {
+    "width": 780,
+    "height": 574
+  },
+  "images/linux/istoreOS/store17.webp": {
+    "width": 925,
+    "height": 497
+  },
+  "images/linux/istoreOS/store18.webp": {
+    "width": 1221,
+    "height": 689
+  },
+  "images/linux/istoreOS/store19.webp": {
+    "width": 964,
+    "height": 392
+  },
+  "images/linux/istoreOS/store2.webp": {
+    "width": 493,
+    "height": 390
+  },
+  "images/linux/istoreOS/store20.webp": {
+    "width": 952,
+    "height": 422
+  },
+  "images/linux/istoreOS/store21.webp": {
+    "width": 1007,
+    "height": 1022
+  },
+  "images/linux/istoreOS/store22.webp": {
+    "width": 502,
+    "height": 435
+  },
+  "images/linux/istoreOS/store23.webp": {
+    "width": 501,
+    "height": 442
+  },
+  "images/linux/istoreOS/store24.webp": {
+    "width": 517,
+    "height": 444
+  },
+  "images/linux/istoreOS/store25.webp": {
+    "width": 509,
+    "height": 439
+  },
+  "images/linux/istoreOS/store26.webp": {
+    "width": 507,
+    "height": 448
+  },
+  "images/linux/istoreOS/store27.webp": {
+    "width": 527,
+    "height": 449
+  },
+  "images/linux/istoreOS/store28.webp": {
+    "width": 526,
+    "height": 436
+  },
+  "images/linux/istoreOS/store29.webp": {
+    "width": 511,
+    "height": 433
+  },
+  "images/linux/istoreOS/store3.webp": {
+    "width": 493,
+    "height": 392
+  },
+  "images/linux/istoreOS/store30.webp": {
+    "width": 503,
+    "height": 438
+  },
+  "images/linux/istoreOS/store31.webp": {
+    "width": 502,
+    "height": 442
+  },
+  "images/linux/istoreOS/store32.webp": {
+    "width": 502,
+    "height": 434
+  },
+  "images/linux/istoreOS/store33.webp": {
+    "width": 508,
+    "height": 431
+  },
+  "images/linux/istoreOS/store34.webp": {
+    "width": 399,
+    "height": 175
+  },
+  "images/linux/istoreOS/store35.webp": {
+    "width": 607,
+    "height": 551
+  },
+  "images/linux/istoreOS/store36.webp": {
+    "width": 609,
+    "height": 526
+  },
+  "images/linux/istoreOS/store37.webp": {
+    "width": 387,
+    "height": 298
+  },
+  "images/linux/istoreOS/store38.webp": {
+    "width": 339,
+    "height": 318
+  },
+  "images/linux/istoreOS/store39.webp": {
+    "width": 709,
+    "height": 393
+  },
+  "images/linux/istoreOS/store4.webp": {
+    "width": 493,
+    "height": 391
+  },
+  "images/linux/istoreOS/store40.webp": {
+    "width": 479,
+    "height": 149
+  },
+  "images/linux/istoreOS/store41.webp": {
+    "width": 503,
+    "height": 203
+  },
+  "images/linux/istoreOS/store42.webp": {
+    "width": 1228,
+    "height": 1028
+  },
+  "images/linux/istoreOS/store43.webp": {
+    "width": 1246,
+    "height": 949
+  },
+  "images/linux/istoreOS/store44.webp": {
+    "width": 1245,
+    "height": 949
+  },
+  "images/linux/istoreOS/store45.webp": {
+    "width": 735,
+    "height": 522
+  },
+  "images/linux/istoreOS/store46.webp": {
+    "width": 795,
+    "height": 683
+  },
+  "images/linux/istoreOS/store47.webp": {
+    "width": 1010,
+    "height": 537
+  },
+  "images/linux/istoreOS/store48.webp": {
+    "width": 1002,
+    "height": 728
+  },
+  "images/linux/istoreOS/store49.webp": {
+    "width": 626,
+    "height": 390
+  },
+  "images/linux/istoreOS/store5.webp": {
+    "width": 494,
+    "height": 393
+  },
+  "images/linux/istoreOS/store6.webp": {
+    "width": 1214,
+    "height": 1050
+  },
+  "images/linux/istoreOS/store7.webp": {
+    "width": 1094,
+    "height": 733
+  },
+  "images/linux/istoreOS/store8.webp": {
+    "width": 583,
+    "height": 452
+  },
+  "images/linux/istoreOS/store9.webp": {
+    "width": 1118,
+    "height": 770
+  },
   "images/mc/mc1-1.webp": {
     "width": 1411,
     "height": 799
@@ -451,6 +651,66 @@
     "width": 993,
     "height": 618
   },
+  "images/mumu/mumu1.webp": {
+    "width": 1290,
+    "height": 599
+  },
+  "images/mumu/mumu10.webp": {
+    "width": 1321,
+    "height": 830
+  },
+  "images/mumu/mumu2.webp": {
+    "width": 1069,
+    "height": 724
+  },
+  "images/mumu/mumu3.webp": {
+    "width": 1107,
+    "height": 502
+  },
+  "images/mumu/mumu4.webp": {
+    "width": 1217,
+    "height": 546
+  },
+  "images/mumu/mumu5.webp": {
+    "width": 1190,
+    "height": 539
+  },
+  "images/mumu/mumu6.webp": {
+    "width": 1178,
+    "height": 538
+  },
+  "images/mumu/mumu7.webp": {
+    "width": 623,
+    "height": 448
+  },
+  "images/mumu/mumu8.webp": {
+    "width": 937,
+    "height": 586
+  },
+  "images/mumu/mumu9.webp": {
+    "width": 628,
+    "height": 756
+  },
+  "images/music/music1.webp": {
+    "width": 869,
+    "height": 656
+  },
+  "images/music/music2.webp": {
+    "width": 872,
+    "height": 663
+  },
+  "images/music/music3.webp": {
+    "width": 869,
+    "height": 661
+  },
+  "images/music/music4.webp": {
+    "width": 871,
+    "height": 662
+  },
+  "images/music/music5.webp": {
+    "width": 876,
+    "height": 658
+  },
   "images/network/network.webp": {
     "width": 1357,
     "height": 787
@@ -614,6 +874,38 @@
   "images/uma/uma9.webp": {
     "width": 1287,
     "height": 491
+  },
+  "images/yuan/yuan1.webp": {
+    "width": 1214,
+    "height": 649
+  },
+  "images/yuan/yuan2.webp": {
+    "width": 1098,
+    "height": 360
+  },
+  "images/yuan/yuan3.webp": {
+    "width": 1115,
+    "height": 400
+  },
+  "images/yuan/yuan4.webp": {
+    "width": 1277,
+    "height": 756
+  },
+  "images/yuan/yuan5.webp": {
+    "width": 1275,
+    "height": 754
+  },
+  "images/yuan/yuan6.webp": {
+    "width": 1277,
+    "height": 754
+  },
+  "images/yuan/yuan7.webp": {
+    "width": 1277,
+    "height": 757
+  },
+  "images/yuan/yuan8.webp": {
+    "width": 1201,
+    "height": 608
   },
   "skill/au.svg": {
     "width": 48.0,
