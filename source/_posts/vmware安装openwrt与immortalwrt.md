@@ -14,7 +14,7 @@ ai: 本文介绍了在VMware中部署OpenWrt和ImmortalWrt软路由系统的详�
 ## 1 前言
 
 [点此查看上期：vmware部署istoreos](https://blog.csdn.net/qq_51891724/article/details/155774351)
-或在本站搜索`vmware安装软路由查看`
+或在本站搜索`vmware安装软路由`查看
 在之前我们在VMware上部署了istoreos软路由，我们今天来用同样的方法安装opwewrt与immortalwrt
 
 ## 2.1 openwrt安装与网络配置

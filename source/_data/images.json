@@ -191,6 +191,54 @@
     "width": 871,
     "height": 665
   },
+  "images/ks/lb/imks.webp": {
+    "width": 356,
+    "height": 200
+  },
+  "images/ks/lb/imks1.webp": {
+    "width": 232,
+    "height": 230
+  },
+  "images/ks/lb/imks10.webp": {
+    "width": 550,
+    "height": 396
+  },
+  "images/ks/lb/imks11.webp": {
+    "width": 606,
+    "height": 624
+  },
+  "images/ks/lb/imks2.webp": {
+    "width": 232,
+    "height": 227
+  },
+  "images/ks/lb/imks3.webp": {
+    "width": 282,
+    "height": 205
+  },
+  "images/ks/lb/imks4.webp": {
+    "width": 283,
+    "height": 197
+  },
+  "images/ks/lb/imks5.webp": {
+    "width": 938,
+    "height": 256
+  },
+  "images/ks/lb/imks6.webp": {
+    "width": 298,
+    "height": 146
+  },
+  "images/ks/lb/imks7.webp": {
+    "width": 261,
+    "height": 207
+  },
+  "images/ks/lb/imks8.webp": {
+    "width": 600,
+    "height": 320
+  },
+  "images/ks/lb/imks9.webp": {
+    "width": 572,
+    "height": 370
+  },
   "images/linux/immortalwrt.webp": {
     "width": 356,
     "height": 200
@@ -202,6 +250,62 @@
   "images/linux/openwrt.webp": {
     "width": 356,
     "height": 200
+  },
+  "images/linux/immortalwrt/imm1.webp": {
+    "width": 1107,
+    "height": 436
+  },
+  "images/linux/immortalwrt/imm10.webp": {
+    "width": 1214,
+    "height": 822
+  },
+  "images/linux/immortalwrt/imm11.webp": {
+    "width": 1227,
+    "height": 916
+  },
+  "images/linux/immortalwrt/imm12.webp": {
+    "width": 1230,
+    "height": 913
+  },
+  "images/linux/immortalwrt/imm13.webp": {
+    "width": 1235,
+    "height": 807
+  },
+  "images/linux/immortalwrt/imm14.webp": {
+    "width": 1206,
+    "height": 917
+  },
+  "images/linux/immortalwrt/imm2.webp": {
+    "width": 1220,
+    "height": 377
+  },
+  "images/linux/immortalwrt/imm3.webp": {
+    "width": 1227,
+    "height": 846
+  },
+  "images/linux/immortalwrt/imm4.webp": {
+    "width": 1218,
+    "height": 922
+  },
+  "images/linux/immortalwrt/imm5.webp": {
+    "width": 1216,
+    "height": 845
+  },
+  "images/linux/immortalwrt/imm6.webp": {
+    "width": 1226,
+    "height": 690
+  },
+  "images/linux/immortalwrt/imm7.webp": {
+    "width": 1228,
+    "height": 861
+  },
+  "images/linux/immortalwrt/imm8.webp": {
+    "width": 1220,
+    "height": 880
+  },
+  "images/linux/immortalwrt/imm9.webp": {
+    "width": 1210,
+    "height": 858
   },
   "images/linux/istoreOS/store1.webp": {
     "width": 493,
