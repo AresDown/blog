@@ -307,6 +307,50 @@
     "width": 572,
     "height": 370
   },
+  "images/ks/spooling/spo1.webp": {
+    "width": 842,
+    "height": 729
+  },
+  "images/ks/spooling/spo10.webp": {
+    "width": 885,
+    "height": 510
+  },
+  "images/ks/spooling/spo11.webp": {
+    "width": 886,
+    "height": 571
+  },
+  "images/ks/spooling/spo2.webp": {
+    "width": 483,
+    "height": 526
+  },
+  "images/ks/spooling/spo3.webp": {
+    "width": 750,
+    "height": 821
+  },
+  "images/ks/spooling/spo4.webp": {
+    "width": 698,
+    "height": 940
+  },
+  "images/ks/spooling/spo5.webp": {
+    "width": 744,
+    "height": 851
+  },
+  "images/ks/spooling/spo6.webp": {
+    "width": 166,
+    "height": 312
+  },
+  "images/ks/spooling/spo7.webp": {
+    "width": 471,
+    "height": 532
+  },
+  "images/ks/spooling/spo8.webp": {
+    "width": 842,
+    "height": 479
+  },
+  "images/ks/spooling/spo9.webp": {
+    "width": 842,
+    "height": 519
+  },
   "images/ks/zhizhu/zhi.webp": {
     "width": 356,
     "height": 200
@@ -798,6 +842,178 @@
   "images/linux/openwrt/open9.webp": {
     "width": 1121,
     "height": 185
+  },
+  "images/linux/Ubun/ub1.webp": {
+    "width": 1104,
+    "height": 725
+  },
+  "images/linux/Ubun/ub10.webp": {
+    "width": 653,
+    "height": 188
+  },
+  "images/linux/Ubun/ub11.webp": {
+    "width": 645,
+    "height": 325
+  },
+  "images/linux/Ubun/ub12.webp": {
+    "width": 656,
+    "height": 186
+  },
+  "images/linux/Ubun/ub13.webp": {
+    "width": 1208,
+    "height": 887
+  },
+  "images/linux/Ubun/ub14.webp": {
+    "width": 641,
+    "height": 172
+  },
+  "images/linux/Ubun/ub15.webp": {
+    "width": 637,
+    "height": 328
+  },
+  "images/linux/Ubun/ub16.webp": {
+    "width": 644,
+    "height": 327
+  },
+  "images/linux/Ubun/ub2.webp": {
+    "width": 651,
+    "height": 333
+  },
+  "images/linux/Ubun/ub3.webp": {
+    "width": 1106,
+    "height": 721
+  },
+  "images/linux/Ubun/ub4.webp": {
+    "width": 1117,
+    "height": 741
+  },
+  "images/linux/Ubun/ub5.webp": {
+    "width": 1109,
+    "height": 728
+  },
+  "images/linux/Ubun/ub6.webp": {
+    "width": 1161,
+    "height": 355
+  },
+  "images/linux/Ubun/ub7.webp": {
+    "width": 1120,
+    "height": 726
+  },
+  "images/linux/Ubun/ub8.webp": {
+    "width": 646,
+    "height": 329
+  },
+  "images/linux/Ubun/ub9.webp": {
+    "width": 646,
+    "height": 324
+  },
+  "images/linux/x64/ins1.webp": {
+    "width": 1084,
+    "height": 734
+  },
+  "images/linux/x64/ins10.webp": {
+    "width": 1223,
+    "height": 936
+  },
+  "images/linux/x64/ins11.webp": {
+    "width": 867,
+    "height": 379
+  },
+  "images/linux/x64/ins12.webp": {
+    "width": 1228,
+    "height": 941
+  },
+  "images/linux/x64/ins13.webp": {
+    "width": 1214,
+    "height": 913
+  },
+  "images/linux/x64/ins14.webp": {
+    "width": 500,
+    "height": 274
+  },
+  "images/linux/x64/ins15.webp": {
+    "width": 470,
+    "height": 261
+  },
+  "images/linux/x64/ins16.webp": {
+    "width": 496,
+    "height": 273
+  },
+  "images/linux/x64/ins17.webp": {
+    "width": 509,
+    "height": 266
+  },
+  "images/linux/x64/ins18.webp": {
+    "width": 498,
+    "height": 268
+  },
+  "images/linux/x64/ins19.webp": {
+    "width": 1039,
+    "height": 945
+  },
+  "images/linux/x64/ins2.webp": {
+    "width": 971,
+    "height": 725
+  },
+  "images/linux/x64/ins20.webp": {
+    "width": 498,
+    "height": 265
+  },
+  "images/linux/x64/ins21.webp": {
+    "width": 476,
+    "height": 265
+  },
+  "images/linux/x64/ins22.webp": {
+    "width": 485,
+    "height": 270
+  },
+  "images/linux/x64/ins23.webp": {
+    "width": 569,
+    "height": 259
+  },
+  "images/linux/x64/ins24.webp": {
+    "width": 492,
+    "height": 265
+  },
+  "images/linux/x64/ins25.webp": {
+    "width": 509,
+    "height": 283
+  },
+  "images/linux/x64/ins26.webp": {
+    "width": 604,
+    "height": 274
+  },
+  "images/linux/x64/ins27.webp": {
+    "width": 535,
+    "height": 269
+  },
+  "images/linux/x64/ins3.webp": {
+    "width": 414,
+    "height": 523
+  },
+  "images/linux/x64/ins4.webp": {
+    "width": 423,
+    "height": 545
+  },
+  "images/linux/x64/ins5.webp": {
+    "width": 420,
+    "height": 523
+  },
+  "images/linux/x64/ins6.webp": {
+    "width": 1220,
+    "height": 695
+  },
+  "images/linux/x64/ins7.webp": {
+    "width": 1206,
+    "height": 932
+  },
+  "images/linux/x64/ins8.webp": {
+    "width": 980,
+    "height": 617
+  },
+  "images/linux/x64/ins9.webp": {
+    "width": 1202,
+    "height": 932
   },
   "images/mc/mc1-1.webp": {
     "width": 1411,
