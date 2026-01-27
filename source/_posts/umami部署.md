@@ -11,7 +11,7 @@ description: hexo主题选择
 ai: 本文介绍了如何使用Vercel部署umami，并在安知鱼主题博客来引入umami统计的方法
 ---
 
-**本文开始之前需要准备一个GitHub账户，后期所有注册都可以使用GitHub来注册**
+**`本文开始之前需要准备一个GitHub账户，后期所有注册都可以使用GitHub来注册`**
 
 ## GitHub克隆仓库
 

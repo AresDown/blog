@@ -16,8 +16,8 @@ ai: 这是一个教你如何使用名为Cultivation的原神私服启动器来�
 
 在阅读此教程前需要了解以下内容:
 
-- 1.[原神私服(5.3)本地搭建方法](https://blog.csdn.net/qq_51891724/article/details/151295110?spm=1001.2014.3001.5501)
-- 2.[原神私服修改器](https://blog.csdn.net/qq_51891724/article/details/151296849?spm=1001.2014.3001.5501)
+- 1.[原神私服(5.3)本地搭建方法](https://blog.csdn.net/qq_51891724/article/details/151295110)
+- 2.[原神私服修改器](https://gitee.com/dawnlighta/explain)
 
 ## 程序介绍
 
