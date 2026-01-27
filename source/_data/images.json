@@ -191,6 +191,74 @@
     "width": 871,
     "height": 665
   },
+  "images/ks/bds/bds.webp": {
+    "width": 356,
+    "height": 200
+  },
+  "images/ks/bds/bds1.webp": {
+    "width": 165,
+    "height": 297
+  },
+  "images/ks/bds/bds10.webp": {
+    "width": 554,
+    "height": 319
+  },
+  "images/ks/bds/bds11.webp": {
+    "width": 581,
+    "height": 298
+  },
+  "images/ks/bds/bds12.webp": {
+    "width": 545,
+    "height": 335
+  },
+  "images/ks/bds/bds13.webp": {
+    "width": 475,
+    "height": 360
+  },
+  "images/ks/bds/bds14.webp": {
+    "width": 513,
+    "height": 360
+  },
+  "images/ks/bds/bds15.webp": {
+    "width": 509,
+    "height": 318
+  },
+  "images/ks/bds/bds16.webp": {
+    "width": 534,
+    "height": 310
+  },
+  "images/ks/bds/bds2.webp": {
+    "width": 464,
+    "height": 726
+  },
+  "images/ks/bds/bds3.webp": {
+    "width": 831,
+    "height": 617
+  },
+  "images/ks/bds/bds4.webp": {
+    "width": 928,
+    "height": 678
+  },
+  "images/ks/bds/bds5.webp": {
+    "width": 478,
+    "height": 572
+  },
+  "images/ks/bds/bds6.webp": {
+    "width": 932,
+    "height": 422
+  },
+  "images/ks/bds/bds7.webp": {
+    "width": 945,
+    "height": 508
+  },
+  "images/ks/bds/bds8.webp": {
+    "width": 494,
+    "height": 294
+  },
+  "images/ks/bds/bds9.webp": {
+    "width": 564,
+    "height": 303
+  },
   "images/ks/lb/imks.webp": {
     "width": 356,
     "height": 200
@@ -238,6 +306,94 @@
   "images/ks/lb/imks9.webp": {
     "width": 572,
     "height": 370
+  },
+  "images/ks/zhizhu/zhi.webp": {
+    "width": 356,
+    "height": 200
+  },
+  "images/ks/zhizhu/zhi1.webp": {
+    "width": 842,
+    "height": 993
+  },
+  "images/ks/zhizhu/zhi10.webp": {
+    "width": 497,
+    "height": 705
+  },
+  "images/ks/zhizhu/zhi11.webp": {
+    "width": 705,
+    "height": 705
+  },
+  "images/ks/zhizhu/zhi12.webp": {
+    "width": 903,
+    "height": 394
+  },
+  "images/ks/zhizhu/zhi13.webp": {
+    "width": 895,
+    "height": 462
+  },
+  "images/ks/zhizhu/zhi14.webp": {
+    "width": 898,
+    "height": 486
+  },
+  "images/ks/zhizhu/zhi15.webp": {
+    "width": 930,
+    "height": 591
+  },
+  "images/ks/zhizhu/zhi16.webp": {
+    "width": 936,
+    "height": 569
+  },
+  "images/ks/zhizhu/zhi17.webp": {
+    "width": 930,
+    "height": 615
+  },
+  "images/ks/zhizhu/zhi18.webp": {
+    "width": 923,
+    "height": 519
+  },
+  "images/ks/zhizhu/zhi19.webp": {
+    "width": 886,
+    "height": 489
+  },
+  "images/ks/zhizhu/zhi2.webp": {
+    "width": 189,
+    "height": 255
+  },
+  "images/ks/zhizhu/zhi20.webp": {
+    "width": 892,
+    "height": 543
+  },
+  "images/ks/zhizhu/zhi21.webp": {
+    "width": 892,
+    "height": 583
+  },
+  "images/ks/zhizhu/zhi3.webp": {
+    "width": 258,
+    "height": 321
+  },
+  "images/ks/zhizhu/zhi4.webp": {
+    "width": 601,
+    "height": 342
+  },
+  "images/ks/zhizhu/zhi5.webp": {
+    "width": 189,
+    "height": 345
+  },
+  "images/ks/zhizhu/zhi6.webp": {
+    "width": 189,
+    "height": 345
+  },
+  "images/ks/zhizhu/zhi7.webp": {
+    "width": 842,
+    "height": 707
+  },
+  "images/ks/zhizhu/zhi8.webp": {
+    "width": 314,
+    "height": 720
+  },
+  "images/ks/zhizhu/zhi9.webp": {
+    "width": 361,
+    "height": 627
   },
   "images/linux/immortalwrt.webp": {
     "width": 356,
