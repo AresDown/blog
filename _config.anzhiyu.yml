@@ -1153,11 +1153,11 @@ LA:
 umami:
   enable: true
   # Umami API 地址，如 https://analytics.example.com
-  apiHost: https://uma.aresdev.qzz.io
+  apiHost: https://cloud.umami.is
   # 网站 ID
-  websiteId: 43113b9c-dc52-4c79-990a-18defacd6d63
+  websiteId: 997b9f3b-c53a-4a91-bc4b-182596b0db03
   # API Token（在 Umami 后台 Settings -> API Keys 中生成）
-  token: ares-55463
+  token: api_lssHuTrzzi5ud1zgwiYa8A0fJqhGffIH
 
 # 标签卖萌
 diytitle:
@@ -1300,6 +1300,7 @@ inject:
   bottom:
     - <script src="/lib/clarity/clarity"></script>
     - <script defer src="https://uma.aresdev.qzz.io/script.js" data-website-id="43113b9c-dc52-4c79-990a-18defacd6d63"></script>
+    - <script defer src="https://cloud.umami.is/script.js" data-website-id="997b9f3b-c53a-4a91-bc4b-182596b0db03"></script>
     # 自定义js
     # - <script src="/js/xxx"></script>
 
