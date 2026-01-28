@@ -109,9 +109,137 @@ inject:
 [点击此处](https://umami.is/pricing)
 可以注册账户去使用hobby还是够用的
 {% imgf uma/uma19.webp %}
-或者使用我fork的仓库的[点此访问](https://github.com/AresDown/umami)
-src\app\api\umami\route.js文件和vercel.json上传到github仓库里面然后在Value重新部署
-不过我这个route.js需要在Value添加一些环境变量
+或者使用如下代码
+
+``` bash
+#route.js
+function getDateRange(type) {
+  const now = new Date();
+
+  const beijingOffset = 8 * 60 * 60 * 1000;
+
+  const bj = new Date(now.getTime() + beijingOffset);
+
+  const year = bj.getFullYear();
+  const month = bj.getMonth();
+  const date = bj.getDate();
+
+  const todayStart = new Date(Date.UTC(year, month, date) - beijingOffset);
+  const tomorrowStart = new Date(Date.UTC(year, month, date + 1) - beijingOffset);
+  const yesterdayStart = new Date(Date.UTC(year, month, date - 1) - beijingOffset);
+  const monthStart = new Date(Date.UTC(year, month, 1) - beijingOffset);
+  const yearStart = new Date(Date.UTC(year, 0, 1) - beijingOffset);
+
+  if (type === "today") return { from: todayStart.toISOString(), to: tomorrowStart.toISOString() };
+  if (type === "yesterday") return { from: yesterdayStart.toISOString(), to: todayStart.toISOString() };
+  if (type === "month") return { from: monthStart.toISOString(), to: tomorrowStart.toISOString() };
+  if (type === "year") return { from: yearStart.toISOString(), to: tomorrowStart.toISOString() };
+}
+
+// 统计 PV（pageview）
+async function queryPV(type) {
+  const { from, to } = getDateRange(type);
+
+  const url = `${process.env.SUPABASE_URL}/rest/v1/website_event?website_id=eq.${process.env.UMAMI_WEBSITE_ID}&created_at=gte.${from}&created_at=lt.${to}&select=event_id`;
+
+  const response = await fetch(url, {
+    headers: {
+      apikey: process.env.SUPABASE_SERVICE_ROLE_KEY,
+      Authorization: `Bearer ${process.env.SUPABASE_SERVICE_ROLE_KEY}`,
+      Prefer: "count=exact",
+    },
+  });
+
+  const count = response.headers.get("content-range")?.split("/")?.[1];
+  return Number(count) || 0;
+}
+
+// 统计 UV（访客数）
+async function queryUV(type) {
+  const { from, to } = getDateRange(type);
+
+  const url = `${process.env.SUPABASE_URL}/rest/v1/session?website_id=eq.${process.env.UMAMI_WEBSITE_ID}&created_at=gte.${from}&created_at=lt.${to}&select=session_id`;
+
+  const response = await fetch(url, {
+    headers: {
+      apikey: process.env.SUPABASE_SERVICE_ROLE_KEY,
+      Authorization: `Bearer ${process.env.SUPABASE_SERVICE_ROLE_KEY}`,
+      Prefer: "count=exact",
+    },
+  });
+
+  const count = response.headers.get("content-range")?.split("/")?.[1];
+  return Number(count) || 0;
+}
+
+export async function GET(req) {
+  const auth = req.headers.get("authorization");
+  const expected = `Bearer ${process.env.UMAMI_FAKE_TOKEN}`;
+
+  if (auth !== expected) {
+    return new Response(JSON.stringify({ error: "Invalid token" }), {
+      status: 401,
+    });
+  }
+
+  try {
+    const [
+      todayPV,
+      yesterdayPV,
+      monthPV,
+      yearPV,
+      todayUV,
+      yesterdayUV,
+    ] = await Promise.all([
+      queryPV("today"),
+      queryPV("yesterday"),
+      queryPV("month"),
+      queryPV("year"),
+      queryUV("today"),
+      queryUV("yesterday"),
+    ]);
+
+    return new Response(
+      JSON.stringify({
+        pageviews: {
+          today: todayPV,
+          yesterday: yesterdayPV,
+          month: monthPV,
+          year: yearPV,
+          value: todayPV,
+          change: todayPV - yesterdayPV,
+        },
+        visitors: {
+          today: todayUV,
+          yesterday: yesterdayUV,
+          value: todayUV,
+          change: todayUV - yesterdayUV,
+        },
+      }),
+      { status: 200 }
+    );
+  } catch (err) {
+    return new Response(JSON.stringify({ error: err.message }), {
+      status: 500,
+    });
+  }
+}
+```
+
+``` bash
+#vercel.json
+{
+  "rewrites": [
+    {
+      "source": "/api/websites/:id/stats",
+      "destination": "/api/umami"
+    }
+  ]
+}
+```
+
+添加到src\app\api\umami\route.js文件和vercel.json上传到github仓库里面然后在Value重新部署
+不过这个route.js需要在Value添加一些环境变量
 
 ``` bash
 |Key|Value|
@@ -151,6 +279,9 @@ curl -i "https://你的域名/api/websites/你的网站id/stats?startAt=0&endAt=
 ```
 
 如果正常输出则说明配置成功
+
+使用中有数据不准确的情况最终就换成了官方的token[点击此处](https://umami.is/pricing)
+vercel留下来当辅助的来使用。
 
 - 2.如果有umami密码忘记的情况可以[点此查看](https://github.com/umami-software/umami/discussions/2483)
 
