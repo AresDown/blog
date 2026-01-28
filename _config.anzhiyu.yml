@@ -433,8 +433,8 @@ daovoice:
 # crisp
 # https://crisp.chat/en/
 crisp:
-  enable: false
-  website_id:
+  enable: true
+  website_id: 6f501916-15fb-432d-ad92-943f43f0da99
 
 # Footer Settings
 # --------------------------------------
@@ -1301,6 +1301,7 @@ inject:
     - <script src="/lib/clarity/clarity"></script>
     - <script defer src="https://uma.aresdev.qzz.io/script.js" data-website-id="43113b9c-dc52-4c79-990a-18defacd6d63"></script>
     - <script defer src="https://cloud.umami.is/script.js" data-website-id="997b9f3b-c53a-4a91-bc4b-182596b0db03"></script>
+    - <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="6f501916-15fb-432d-ad92-943f43f0da99";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
     # 自定义js
     # - <script src="/js/xxx"></script>
 
