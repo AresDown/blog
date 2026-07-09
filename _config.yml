@@ -136,7 +136,7 @@ aplayer:
 
 # algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch
 algolia:
-  appId: "RG99W33NVW"
+  appId: "65UX8VM7KN"
   apiKey: "99004216e5646f381ebbf8a6eabe374e"
   chunkSize: 5000
   indexName: "hexo"
